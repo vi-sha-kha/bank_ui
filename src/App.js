@@ -1,12 +1,25 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import AllCollapse from "./components/accordion/Accordion";
-import Navigation_bar from "./components/nav/Navbar";
+import Business from "./components/Business";
+import Individual from "./components/Individual";
+import Nbank from "./components/Nbank";
+import Services from "./components/Services";
+import Navbar2 from "./components/nav/Navbar2";
+import Routing from "./routes/Routes";
 
 function App() {
   return (
     <div className="App">
-      <Navigation_bar />
-      <AllCollapse />
+      {/* <Routing /> */}
+      <BrowserRouter>
+        <Navbar2 />
+
+        {/* <Navbar2 /> */}
+        <Individual />
+        <Business />
+        <Services />
+        <Nbank />
+      </BrowserRouter>
     </div>
   );
 }

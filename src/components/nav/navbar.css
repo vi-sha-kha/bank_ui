@@ -1,0 +1,67 @@
+.search-hover {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+}
+
+.search-hover:hover {
+    width: 800px;
+    padding-left: 50px;
+}
+.navigation-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.navigation-top--left ul li a.active {
+    color: #fff;
+}
+
+.navigation-top--left ul li a {
+    color: #696969;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    padding: 15px 10px 12px;
+    z-index: 1;
+}
+
+.active-link {
+    background-color: blue;
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #696969;
+        display: block;
+        font-size: 14px;
+        position: relative;
+        padding: 15px 10px 12px;
+        z-index: 1;
+}
+
+.hover-underline>li>a {
+    position: relative;
+}
+a {
+    color: #007bff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
