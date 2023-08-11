@@ -34,18 +34,44 @@
     z-index: 1;
 }
 
-.active-link {
-    background-color: blue;
-    color: #000;
-    font-weight: bold;
+
+.nav-link:hover {
+    
     text-decoration: underline;
-    color: #696969;
-        display: block;
-        font-size: 14px;
-        position: relative;
-        padding: 15px 10px 12px;
-        z-index: 1;
+    
 }
+
+.active-link:hover{
+color: #007D68;
+
+
+}
+
+.active-link:after {
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 40px;
+    width: 275px;
+    border-bottom: solid 3px #019fb6;
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+    opacity: 0;
+}
+
+.active-link:hover:after {
+    opacity: 1;
+}
+/* .active-link::after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: var(--accent);
+    transition: width 0.2s ease 0s, left 0.1s ease 0s;
+    width: 0;
+} */
 
 .hover-underline>li>a {
     position: relative;
@@ -64,4 +90,30 @@ a {
 :after,
 :before {
     box-sizing: border-box;
+}
+
+/* Assuming you have a CSS file linked to your component */
+
+.mega-menu {
+  display: flex;
+  justify-content: center; /* Center the mega menu items horizontally */
+  background-color: #f8f9fa; /* Background color for the mega menu */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.mega-menu-item {
+  position: relative;
+}
+
+.mega-dropdown-menu {
+  position: absolute;
+  top: 100%; /* Position the mega menu below the parent item */
+  left: 0;
+  display: none; /* Hide the mega menu by default */
+  background-color: #fff; /* Background color for the mega menu items */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.mega-menu-item:hover .mega-dropdown-menu {
+  display: block; /* Display the mega menu on parent item hover */
 }
