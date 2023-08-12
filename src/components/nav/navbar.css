@@ -20,6 +20,12 @@
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
 }
+.navigation-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
 
 .navigation-top--left ul li a.active {
     color: #fff;

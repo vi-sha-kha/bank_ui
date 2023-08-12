@@ -297,352 +297,434 @@ const Navbar2 = () => {
                       </Nav>
                       {/* </Stack> */}
                     </div>
-                    <Nav className="justify-content-start flex-grow-1 pe-3">
-                      <Navbar.Brand href="#">
-                        {" "}
-                        <img
-                          src="https://siteadmin.nabilbank.com/assets/backend/uploads/logo.png"
-                          alt="logo"
-                          class="img-fluid"
-                          width="150"
-                        />
-                      </Navbar.Brand>
-                      <Nav className="justify-content-center flex-grow-1 pe-3">
-                        <MDBNavbarItem className="position-static">
-                          <MDBDropdown>
-                            <MDBDropdownToggle tag="a" className="nav-link">
-                              Deposit
-                            </MDBDropdownToggle>
-                            <MDBDropdownMenu
-                              className="mt-0 w-100 justify-content-center"
-                              style={{
-                                borderTopLeftRadius: "0",
-                                borderTopRightRadius: "0",
-                                width: "100%",
-                              }}
-                            >
-                              <MDBContainer>
-                                <MDBRow className="my-4">
-                                  <MDBCol
-                                    md="6"
-                                    lg="3"
-                                    className="mb-3 mb-lg-0"
-                                  >
-                                    <MDBListGroup flush>
-                                      <MDBListGroupItem
-                                        className="text-uppercase font-weight-bold"
-                                        tag="a"
-                                        href="#"
-                                        action
-                                      >
-                                        Lorem ipsum
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Dolor sit
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Amet consectetur
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Cras justo odio
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Adipisicing elit
-                                      </MDBListGroupItem>
-                                    </MDBListGroup>
-                                  </MDBCol>
-                                  <MDBCol md="6" lg="3">
-                                    <MDBListGroup flush>
-                                      <MDBListGroupItem
-                                        className="text-uppercase font-weight-bold"
-                                        tag="a"
-                                        href="#"
-                                        action
-                                      >
-                                        Cras justo odio
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Saepe
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Vel alias
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Sunt doloribus
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Cum dolores
-                                      </MDBListGroupItem>
-                                    </MDBListGroup>
-                                  </MDBCol>
-                                  <MDBCol md="6" lg="3">
-                                    <MDBListGroup flush>
-                                      <MDBListGroupItem
-                                        className="text-uppercase font-weight-bold"
-                                        tag="a"
-                                        href="#"
-                                        action
-                                      >
-                                        Cras justo odio
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Saepe
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Vel alias
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Sunt doloribus
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Cum dolores
-                                      </MDBListGroupItem>
-                                    </MDBListGroup>
-                                  </MDBCol>
-                                  <MDBCol
-                                    md="6"
-                                    lg="3"
-                                    class="dropdown-img-holder"
-                                  >
-                                    <h4>Nabil Premium Nari Bachat</h4>
-                                    <img
-                                      src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/nari-bachat-thumbnail.png"
-                                      class="dropdown-img img-fluid w-100 rounded"
-                                      alt="Nabil Premium Nari Bachat"
-                                    />
-                                  </MDBCol>
-                                </MDBRow>
-                              </MDBContainer>
-                            </MDBDropdownMenu>
-                          </MDBDropdown>
-                        </MDBNavbarItem>
-                        <MDBNavbarItem className="position-static">
-                          <MDBDropdown>
-                            <MDBDropdownToggle tag="a" className="nav-link">
-                              Loans
-                            </MDBDropdownToggle>
-                            <MDBDropdownMenu
-                              className="mt-0 w-100 justify-content-center"
-                              style={{
-                                borderTopLeftRadius: "0",
-                                borderTopRightRadius: "0",
-                              }}
-                            >
-                              <MDBContainer>
-                                <MDBRow className="my-4">
-                                  <MDBCol md="6" lg="3">
-                                    <MDBListGroup flush>
-                                      <MDBListGroupItem
-                                        className="text-uppercase font-weight-bold"
-                                        tag="a"
-                                        href="#"
-                                        action
-                                      >
-                                        Cras justo odio
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Saepe
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Vel alias
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Sunt doloribus
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Cum dolores
-                                      </MDBListGroupItem>
-                                    </MDBListGroup>
-                                  </MDBCol>
-                                  <MDBCol
-                                    md="6"
-                                    lg="3"
-                                    class="dropdown-img-holder"
-                                  >
-                                    <h4>Housing Loan</h4>
-                                    <img
-                                      src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/housing-loan-website.jpg"
-                                      class="dropdown-img img-fluid w-100 rounded"
-                                      alt="Housing Loan"
-                                    />
-                                  </MDBCol>
-                                </MDBRow>
-                              </MDBContainer>
-                            </MDBDropdownMenu>
-                          </MDBDropdown>
-                        </MDBNavbarItem>
-                        <MDBNavbarItem className="position-static">
-                          <MDBDropdown>
-                            <MDBDropdownToggle tag="a" className="nav-link">
-                              Remittance
-                            </MDBDropdownToggle>
-                            <MDBDropdownMenu
-                              className="mt-0 w-100 justify-content-center"
-                              style={{
-                                borderTopLeftRadius: "0",
-                                borderTopRightRadius: "0",
-                              }}
-                            >
-                              <MDBContainer>
-                                <MDBRow className="my-4">
-                                  <MDBCol md="6" lg="3">
-                                    <MDBListGroup flush>
-                                      <MDBListGroupItem
-                                        className="text-uppercase font-weight-bold"
-                                        tag="a"
-                                        href="#"
-                                        action
-                                      >
-                                        Cras justo odio
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Saepe
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Vel alias
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Sunt doloribus
-                                      </MDBListGroupItem>
-                                      <MDBListGroupItem tag="a" href="#" action>
-                                        Cum dolores
-                                      </MDBListGroupItem>
-                                    </MDBListGroup>
-                                  </MDBCol>
-                                </MDBRow>
-                                <MDBRow className="my-4">
-                                  <MDBCol
-                                    md="6"
-                                    lg="3"
-                                    class="dropdown-img-holder"
-                                  >
-                                    <h4>
-                                      Western Union- Account Payment Network (WU
-                                      APN)
-                                    </h4>
-                                    <img
-                                      src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/western-union-account-payment.jpg"
-                                      class="dropdown-img img-fluid w-100 rounded"
-                                      alt="Western Union- Account Payment Network (WU APN)"
-                                    />
-                                  </MDBCol>
-                                </MDBRow>
-                              </MDBContainer>
-                            </MDBDropdownMenu>
-                          </MDBDropdown>
-                        </MDBNavbarItem>
+                    <div className="navigation-bottom">
+                      <Nav className="justify-content-start flex-grow-1 pe-3">
+                        <Navbar.Brand href="#">
+                          {" "}
+                          <img
+                            src="https://siteadmin.nabilbank.com/assets/backend/uploads/logo.png"
+                            alt="logo"
+                            class="img-fluid"
+                            width="150"
+                          />
+                        </Navbar.Brand>
+                        <Nav className="justify-content-center flex-grow-1 pe-3">
+                          <MDBNavbarItem className="position-static">
+                            <MDBDropdown>
+                              <MDBDropdownToggle tag="a" className="nav-link">
+                                Deposit
+                              </MDBDropdownToggle>
+                              <MDBDropdownMenu
+                                className="mt-0 w-100 justify-content-center"
+                                style={{
+                                  borderTopLeftRadius: "0",
+                                  borderTopRightRadius: "0",
+                                  width: "100%",
+                                }}
+                              >
+                                <MDBContainer>
+                                  <MDBRow className="my-4">
+                                    <MDBCol
+                                      md="6"
+                                      lg="3"
+                                      className="mb-3 mb-lg-0"
+                                    >
+                                      <MDBListGroup flush>
+                                        <MDBListGroupItem
+                                          className="text-uppercase font-weight-bold"
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Lorem ipsum
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Dolor sit
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Amet consectetur
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cras justo odio
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Adipisicing elit
+                                        </MDBListGroupItem>
+                                      </MDBListGroup>
+                                    </MDBCol>
+                                    <MDBCol md="6" lg="3">
+                                      <MDBListGroup flush>
+                                        <MDBListGroupItem
+                                          className="text-uppercase font-weight-bold"
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cras justo odio
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Saepe
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Vel alias
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Sunt doloribus
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cum dolores
+                                        </MDBListGroupItem>
+                                      </MDBListGroup>
+                                    </MDBCol>
+                                    <MDBCol md="6" lg="3">
+                                      <MDBListGroup flush>
+                                        <MDBListGroupItem
+                                          className="text-uppercase font-weight-bold"
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cras justo odio
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Saepe
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Vel alias
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Sunt doloribus
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cum dolores
+                                        </MDBListGroupItem>
+                                      </MDBListGroup>
+                                    </MDBCol>
+                                    <MDBCol
+                                      md="6"
+                                      lg="3"
+                                      class="dropdown-img-holder"
+                                    >
+                                      <h4>Nabil Premium Nari Bachat</h4>
+                                      <img
+                                        src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/nari-bachat-thumbnail.png"
+                                        class="dropdown-img img-fluid w-100 rounded"
+                                        alt="Nabil Premium Nari Bachat"
+                                      />
+                                    </MDBCol>
+                                  </MDBRow>
+                                </MDBContainer>
+                              </MDBDropdownMenu>
+                            </MDBDropdown>
+                          </MDBNavbarItem>
+                          <MDBNavbarItem className="position-static">
+                            <MDBDropdown>
+                              <MDBDropdownToggle tag="a" className="nav-link">
+                                Loans
+                              </MDBDropdownToggle>
+                              <MDBDropdownMenu
+                                className="mt-0 w-100 justify-content-center"
+                                style={{
+                                  borderTopLeftRadius: "0",
+                                  borderTopRightRadius: "0",
+                                }}
+                              >
+                                <MDBContainer>
+                                  <MDBRow className="my-4">
+                                    <MDBCol md="6" lg="3">
+                                      <MDBListGroup flush>
+                                        <MDBListGroupItem
+                                          className="text-uppercase font-weight-bold"
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cras justo odio
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Saepe
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Vel alias
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Sunt doloribus
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cum dolores
+                                        </MDBListGroupItem>
+                                      </MDBListGroup>
+                                    </MDBCol>
+                                    <MDBCol
+                                      md="6"
+                                      lg="3"
+                                      class="dropdown-img-holder"
+                                    >
+                                      <h4>Housing Loan</h4>
+                                      <img
+                                        src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/housing-loan-website.jpg"
+                                        class="dropdown-img img-fluid w-100 rounded"
+                                        alt="Housing Loan"
+                                      />
+                                    </MDBCol>
+                                  </MDBRow>
+                                </MDBContainer>
+                              </MDBDropdownMenu>
+                            </MDBDropdown>
+                          </MDBNavbarItem>
+                          <MDBNavbarItem className="position-static">
+                            <MDBDropdown>
+                              <MDBDropdownToggle tag="a" className="nav-link">
+                                Remittance
+                              </MDBDropdownToggle>
+                              <MDBDropdownMenu
+                                className="mt-0 w-100 justify-content-center"
+                                style={{
+                                  borderTopLeftRadius: "0",
+                                  borderTopRightRadius: "0",
+                                }}
+                              >
+                                <MDBContainer>
+                                  <MDBRow className="my-4">
+                                    <MDBCol md="6" lg="3">
+                                      <MDBListGroup flush>
+                                        <MDBListGroupItem
+                                          className="text-uppercase font-weight-bold"
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cras justo odio
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Saepe
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Vel alias
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Sunt doloribus
+                                        </MDBListGroupItem>
+                                        <MDBListGroupItem
+                                          tag="a"
+                                          href="#"
+                                          action
+                                        >
+                                          Cum dolores
+                                        </MDBListGroupItem>
+                                      </MDBListGroup>
+                                    </MDBCol>
+                                  </MDBRow>
+                                  <MDBRow className="my-4">
+                                    <MDBCol
+                                      md="6"
+                                      lg="3"
+                                      class="dropdown-img-holder"
+                                    >
+                                      <h4>
+                                        Western Union- Account Payment Network
+                                        (WU APN)
+                                      </h4>
+                                      <img
+                                        src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/western-union-account-payment.jpg"
+                                        class="dropdown-img img-fluid w-100 rounded"
+                                        alt="Western Union- Account Payment Network (WU APN)"
+                                      />
+                                    </MDBCol>
+                                  </MDBRow>
+                                </MDBContainer>
+                              </MDBDropdownMenu>
+                            </MDBDropdown>
+                          </MDBNavbarItem>
+                        </Nav>
+                        <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
+                          <Dropdown className="d-inline mx-2">
+                            <Dropdown.Toggle id="dropdown-autoclose-true">
+                              Login
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                              <Dropdown.Item
+                                href="https://nbank.nabilbank.com/"
+                                target="_blank"
+                              >
+                                nBank Web
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://enabil.nabilbank.com/#/login"
+                                target="_blank"
+                              >
+                                e@Nabil{" "}
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://www.nabilbank.com.np"
+                                target="_blank"
+                              >
+                                Internet Banking
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://ibanking.nabilbank.com/#/login"
+                                target="_blank"
+                              >
+                                Internet Banking [NBBL]{" "}
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://acs.nabil.compassplus.uk/enrollment/index.jsp"
+                                target="_blank"
+                              >
+                                Nabil e-Secure
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://corporatepay.connectips.com/#/login"
+                                target="_blank"
+                              >
+                                CorporatePay
+                              </Dropdown.Item>
+                            </Dropdown.Menu>
+                          </Dropdown>
+                          <Dropdown className="d-inline mx-2" variant="success">
+                            <Dropdown.Toggle id="dropdown-autoclose-true">
+                              Apply Online
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                              <Dropdown.Item href="/individual/credit-card/eligibility">
+                                Credit Card Application
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://online.nabilbank.com/Setting/ProductSetup"
+                                target="_blank"
+                              >
+                                Online Account Opening
+                              </Dropdown.Item>
+                              <Dropdown.Item href="/individual/fixed-deposit">
+                                Online Fixed Deposit
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://onlinedemat.nabilinvest.com.np/"
+                                target="_blank"
+                              >
+                                Open Demat Account
+                              </Dropdown.Item>
+                              <Dropdown.Item
+                                href="https://www.nabilbank.com/services-payments/loan-eligibility"
+                                target="_blank"
+                              >
+                                Retail Loan Application
+                              </Dropdown.Item>
+                              <Dropdown.Item href="/individual/sme-loan-application">
+                                SME Loan Application
+                              </Dropdown.Item>
+                            </Dropdown.Menu>
+                          </Dropdown>
+                          <form>
+                            <MDBContainer className="py-5 sidebar-search-wrapper">
+                              <input
+                                type="text"
+                                className="search-hover"
+                                placeholder="What are you looking for..."
+                                value=""
+                                data-listener-added_b7545ed4="true"
+                              />
+                              <svg
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="text-gray"
+                                height="1em"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line
+                                  x1="21"
+                                  y1="21"
+                                  x2="16.65"
+                                  y2="16.65"
+                                ></line>
+                              </svg>
+                            </MDBContainer>
+                          </form>
+                        </Nav>
                       </Nav>
-                      <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
-                        <Dropdown className="d-inline mx-2">
-                          <Dropdown.Toggle id="dropdown-autoclose-true">
-                            Login
-                          </Dropdown.Toggle>
-                          <Dropdown.Menu>
-                            <Dropdown.Item
-                              href="https://nbank.nabilbank.com/"
-                              target="_blank"
-                            >
-                              nBank Web
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://enabil.nabilbank.com/#/login"
-                              target="_blank"
-                            >
-                              e@Nabil{" "}
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://www.nabilbank.com.np"
-                              target="_blank"
-                            >
-                              Internet Banking
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://ibanking.nabilbank.com/#/login"
-                              target="_blank"
-                            >
-                              Internet Banking [NBBL]{" "}
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://acs.nabil.compassplus.uk/enrollment/index.jsp"
-                              target="_blank"
-                            >
-                              Nabil e-Secure
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://corporatepay.connectips.com/#/login"
-                              target="_blank"
-                            >
-                              CorporatePay
-                            </Dropdown.Item>
-                          </Dropdown.Menu>
-                        </Dropdown>
-                        <Dropdown className="d-inline mx-2" variant="success">
-                          <Dropdown.Toggle id="dropdown-autoclose-true">
-                            Apply Online
-                          </Dropdown.Toggle>
-                          <Dropdown.Menu>
-                            <Dropdown.Item href="/individual/credit-card/eligibility">
-                              Credit Card Application
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://online.nabilbank.com/Setting/ProductSetup"
-                              target="_blank"
-                            >
-                              Online Account Opening
-                            </Dropdown.Item>
-                            <Dropdown.Item href="/individual/fixed-deposit">
-                              Online Fixed Deposit
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://onlinedemat.nabilinvest.com.np/"
-                              target="_blank"
-                            >
-                              Open Demat Account
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              href="https://www.nabilbank.com/services-payments/loan-eligibility"
-                              target="_blank"
-                            >
-                              Retail Loan Application
-                            </Dropdown.Item>
-                            <Dropdown.Item href="/individual/sme-loan-application">
-                              SME Loan Application
-                            </Dropdown.Item>
-                          </Dropdown.Menu>
-                        </Dropdown>
-                        <form>
-                          <MDBContainer className="py-5 sidebar-search-wrapper">
-                            <input
-                              type="text"
-                              className="search-hover"
-                              placeholder="What are you looking for..."
-                              value=""
-                              data-listener-added_b7545ed4="true"
-                            />
-                            <svg
-                              stroke="currentColor"
-                              fill="none"
-                              stroke-width="2"
-                              viewBox="0 0 24 24"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="text-gray"
-                              height="1em"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle cx="11" cy="11" r="8"></circle>
-                              <line
-                                x1="21"
-                                y1="21"
-                                x2="16.65"
-                                y2="16.65"
-                              ></line>
-                            </svg>
-                          </MDBContainer>
-                        </form>
-                      </Nav>
-                    </Nav>
+                    </div>
                   </Stack>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>
