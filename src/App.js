@@ -11,6 +11,7 @@ import Routing from "./routes/Routes";
 import CarouselItem from "./components/carousel/Carousel";
 import Promo from "./components/section/Promo";
 import Promo2 from "./components/section/Promo2";
+import OurStories from "./components/section/OurStories";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <Navbar2 /> */}
       <CarouselItem />
       <Promo />
+      <OurStories />
       <Promo2 />
       <Individual />
       <Business />
