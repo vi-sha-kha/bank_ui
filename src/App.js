@@ -8,6 +8,8 @@ import Navbar2 from "./components/nav/Navbar2";
 import Header from "./components/nav/Header";
 import About from "./components/About";
 import Routing from "./routes/Routes";
+import CarouselItem from "./components/carousel/Carousel";
+import Promo from "./components/section/Promo";
 
 function App() {
   return (
@@ -16,8 +18,9 @@ function App() {
 
       <Navbar2 />
       {/* <Header/> */}
-
       {/* <Navbar2 /> */}
+      <CarouselItem />
+      <Promo />
       <Individual />
       <Business />
       <About />

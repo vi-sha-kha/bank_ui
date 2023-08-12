@@ -1,0 +1,23 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    margin-right: 2rem;
+    color: blue;
+}
+
+.bottom100 {
+    margin-top: 100rem;
+}
+
+.bottom200 {
+    margin-top: 200rem;
+}
+
+#tag1 {
+    padding: 4rem;
+}
