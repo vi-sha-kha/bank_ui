@@ -12,7 +12,8 @@ function CarouselItem() {
           />
           <div class="col-md-6 col-sm-12"></div>
         </div>
-        <Carousel.Caption>
+
+        <Carousel.Caption className="carousel-elem">
           <h1 class="font-weight-bold text-white mb-3 h2">
             Together Ahead for Sustainable Future
           </h1>
@@ -24,7 +25,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-elem">
           <h1 class="font-weight-bold text-white mb-3 h2">
             Application Open for Nabil SSE Fellowship Programme - Third Cohort
           </h1>
@@ -36,7 +37,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-elem">
           <h1 class="font-weight-bold text-white mb-3 h2">
             Attractive Discounts Await You!
           </h1>
@@ -51,7 +52,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-elem">
           <h1 class="font-weight-bold text-white mb-3 h2">
             Open Fixed Deposit Instantly
           </h1>
@@ -67,7 +68,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-elem">
           <h1 class="font-weight-bold text-white mb-3 h2">
             Looking to finance your next chapter?
           </h1>
