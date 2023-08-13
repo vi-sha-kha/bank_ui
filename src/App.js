@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import "./styles.css";
 import Business from "./components/Business";
 import Individual from "./components/Individual";
 import Nbank from "./components/Nbank";
@@ -12,6 +13,7 @@ import CarouselItem from "./components/carousel/Carousel";
 import Promo from "./components/section/Promo";
 import Promo2 from "./components/section/Promo2";
 import OurStories from "./components/section/OurStories";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
       <About />
       <Services />
       <Nbank />
+      <Footer />
     </div>
   );
 }
