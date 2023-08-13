@@ -237,6 +237,15 @@
                 }
 
                 .carousel-elem{
-                    width : auto!important ;
+                    width : 50% ;
+                    position: initial;
+                    
+                    /* justify-content:left;
+                    justify-self: flex-start; */
+                    justify-items: flex-start;
+                    height: 50%;
+                    padding: 1rem;
+                        border-radius: 5px;
+                        font-size: 10px;
                     background-color: rgb(40, 167, 69);
                 }

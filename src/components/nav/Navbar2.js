@@ -616,7 +616,7 @@ const Navbar2 = () => {
                         <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
                           <Dropdown className="d-inline mx-2">
                             <Dropdown.Toggle
-                              className="bordered-dropdown"
+                              variant="outline-success"
                               id="dropdown-autoclose-true"
                             >
                               Login
@@ -660,8 +660,11 @@ const Navbar2 = () => {
                               </Dropdown.Item>
                             </Dropdown.Menu>
                           </Dropdown>
-                          <Dropdown className="d-inline mx-2" variant="success">
-                            <Dropdown.Toggle id="dropdown-autoclose-true">
+                          <Dropdown className="d-inline mx-2">
+                            <Dropdown.Toggle
+                              id="dropdown-autoclose-true"
+                              variant="success"
+                            >
                               Apply Online
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
