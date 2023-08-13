@@ -139,7 +139,7 @@ const Navbar2 = () => {
                             isActive("#individual")
                               ? {
                                   fontWeight: "bold",
-                                  backgroundColor: "red",
+                                  backgroundColor: "rgb(213, 41, 51)",
                                 }
                               : {}
                           }
@@ -156,7 +156,7 @@ const Navbar2 = () => {
                             isActive("#business")
                               ? {
                                   fontWeight: "bold",
-                                  backgroundColor: "red",
+                                  backgroundColor: "rgb(213, 41, 51)",
                                 }
                               : {}
                           }
@@ -173,7 +173,7 @@ const Navbar2 = () => {
                             isActive("#services")
                               ? {
                                   fontWeight: "bold",
-                                  backgroundColor: "red",
+                                  backgroundColor: "rgb(213, 41, 51)",
                                 }
                               : {}
                           }
@@ -615,7 +615,10 @@ const Navbar2 = () => {
                         </Nav>
                         <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
                           <Dropdown className="d-inline mx-2">
-                            <Dropdown.Toggle id="dropdown-autoclose-true">
+                            <Dropdown.Toggle
+                              className="bordered-dropdown"
+                              id="dropdown-autoclose-true"
+                            >
                               Login
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
