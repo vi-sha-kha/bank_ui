@@ -17,7 +17,7 @@ const Promo = () => {
             <h5 class=" text-d-gray mb-3">
               Answer a few questions and we will help you plan your finances.
             </h5>
-            <div class="d-flex flex-column flex-sm-row">
+            <div class="d-flex flex-column flex-sm-row justify-content-center">
               <Button variant="success">Schedule an Appointment</Button>
 
               <Button variant="outline-success">View FAQs</Button>
