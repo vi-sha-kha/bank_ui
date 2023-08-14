@@ -34,58 +34,7 @@ const Navbar2 = () => {
   const isActive = (iHash) => hash === iHash;
   return (
     <>
-      {/* <div class="desktop-header">
-        <div class="container">
-          <div class="navigation-wrapper">
-            <div class="navigation-top">
-              <div class="navigation-top--left">
-                <ul class="hover-underline list-unstyled mb-0">
-                  <li>
-                    <a class="active">Individual</a>
-                  </li>
-                  <li>
-                    <a class="">Business</a>
-                  </li>
-                  <li>
-                    <a class="">Services &amp; Payments</a>
-                  </li>
-                  <li>
-                    <a href="http://nbankhome.nabilbank.com/">nBank</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="navigation-top--right">
-                <div class="navigation-dropdown lang-dropdown">
-                  <span class="d-flex align-items-center" role="button">
-                    <a href="tel:+977 1 5970015" class="p-0 pr-2">
-                      +977 1 5970015
-                    </a>
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      stroke-width="0"
-                      viewBox="0 0 1024 1024"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: rgb(149, 149, 149); font-size: 10px;"
-                    >
-                      <path d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"></path>
-                    </svg>
-                  </span>
-                </div>
-                <div class="navigation-dropdown">
-                  <a class="with-arrow">Quick Links</a>
-                </div>
-                <div class="navigation-dropdown lang-dropdown">
-                  <a class="with-arrow ">EN</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      <Container expand="lg" className="m-40">
+      <Container>
         <Navbar expand="lg" className="bg-body-tertiary mb-3">
           <Nav variant="underline">
             <Container fluid>
@@ -110,25 +59,6 @@ const Navbar2 = () => {
                     <div className="navigation-top">
                       {/* <Stack direction="horizontal" gap={3}> */}
                       <Nav className="justify-content-start flex-grow-1 pe-3">
-                        {/* <Tabs
-                            defaultActiveKey="individual"
-                            id="fill-tab-example"
-                            className="mb-3"
-                            fill
-                          >
-                            <Tab eventKey="individual" title="Individual">
-                              Tab content for Home
-                            </Tab>
-                            <Tab eventKey="business" title="Business">
-                              Tab content for Profile
-                            </Tab>
-                            <Tab eventKey="services" title="Services & Payment">
-                              Tab content for Loooonger Tab
-                            </Tab>
-                            <Tab eventKey="nbank" title="nBank">
-                              Tab content for Contact
-                            </Tab>
-                          </Tabs> */}
                         <Nav.Link
                           activeClassName="active-link" // <-- define active classname
                           as={HashLink} // <-- render NavHashLink component
@@ -168,7 +98,7 @@ const Navbar2 = () => {
                           as={HashLink} // <-- render NavHashLink component
                           className="style-navlink"
                           smooth
-                          to="#services"
+                          to="/services"
                           style={
                             isActive("#services")
                               ? {

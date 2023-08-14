@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 const Promo = () => {
   return (
@@ -17,13 +18,9 @@ const Promo = () => {
               Answer a few questions and we will help you plan your finances.
             </h5>
             <div class="d-flex flex-column flex-sm-row">
-              <button class="btn  btn-gradient--solid btn--medium icon ">
-                Schedule an Appointment
-              </button>
-              <div class="mr-3 mb-2"></div>
-              <button class="btn  btn-success--outline btn--medium icon ">
-                View FAQs
-              </button>
+              <Button variant="success">Schedule an Appointment</Button>
+
+              <Button variant="outline-success">View FAQs</Button>
             </div>
           </div>
           <div class="col-md-5 order-0 order-md-1">
