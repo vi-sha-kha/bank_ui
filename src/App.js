@@ -14,6 +14,8 @@ import Promo from "./components/section/Promo";
 import Promo2 from "./components/section/Promo2";
 import OurStories from "./components/section/OurStories";
 import Footer from "./components/Footer";
+import Grid4 from "./components/Grid4";
+import CardsScrollable from "./components/CardsScrollable";
 
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
       {/* <Header/> */}
       {/* <Navbar2 /> */}
       <CarouselItem />
+      <CardsScrollable />
       <Promo />
       <OurStories />
+      <Grid4 />
       <Promo2 />
       <Individual />
       <Business />
