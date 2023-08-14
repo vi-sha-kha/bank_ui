@@ -28,7 +28,6 @@ function App() {
       {/* <Navbar2 /> */}
       <CarouselItem />
       <CardsScrollable />
-      <TabScrollable />
       <Promo />
       <OurStories />
       <Grid4 />
