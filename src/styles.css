@@ -261,3 +261,24 @@
                 .card:hover{
                     transform: scale(1.15);
                 }
+
+                .noticeBanner-wrapper {
+                    position:relative;
+                    background:rgba(236, 33, 39, .87)
+                }
+
+                                
+                
+                                .carousel-content {
+                                    color: black;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                
+                                #text-carousel {
+                                    width: 100%;
+                                    height: auto;
+                                    padding: 50px;
+                                }
+
+                
