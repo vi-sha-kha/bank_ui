@@ -16,6 +16,7 @@ import OurStories from "./components/section/OurStories";
 import Footer from "./components/Footer";
 import Grid4 from "./components/Grid4";
 import CardsScrollable from "./components/CardsScrollable";
+import TabScrollable from "./components/TabScrollable";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       {/* <Navbar2 /> */}
       <CarouselItem />
       <CardsScrollable />
+      <TabScrollable />
       <Promo />
       <OurStories />
       <Grid4 />
