@@ -83,7 +83,7 @@ const CarouselMini = () => {
         <Carousel>
           <Carousel.Item interval={1000}>
             <img
-              className="d-block  h-5"
+              className="d-block "
               src={"bg-carousel.avif"}
               alt="First slide"
               width={100}
@@ -109,7 +109,7 @@ const CarouselMini = () => {
           </Carousel.Item>
           <Carousel.Item interval={500}>
             <img
-              className="d-block h-25"
+              className="d-block"
               src={"bg-carousel.avif"}
               alt="First slide"
               width={100}
@@ -135,7 +135,7 @@ const CarouselMini = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block h-25"
+              className="d-block "
               src={"bg-carousel.avif"}
               alt="First slide"
               width={100}
