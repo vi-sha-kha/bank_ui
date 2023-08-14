@@ -57,7 +57,7 @@ const Promo2 = () => {
               {/* Other service-block components */}
               <div className="service_icon-arrow"></div>
             </Row>
-            <div className="d-flex flex-column flex-sm-row flex-wrap">
+            <div className="d-flex mx-5 flex-column flex-sm-row flex-wrap justify-content-center">
               <Button variant="success">Send to Mobile Number</Button>
               <Button variant="outline-success">More Info</Button>
             </div>

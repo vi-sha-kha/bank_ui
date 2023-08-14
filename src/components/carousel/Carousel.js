@@ -1,13 +1,13 @@
 import { Button, Col, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import { Media } from "reactstrap";
-
+import "./carouselStyles.css";
 function CarouselItem() {
   return (
     <Carousel>
       <Carousel.Item interval={1000}>
         <div className="align-middle slick-slide">
-          <Carousel.Caption className="carousel-elem">
+          <Carousel.Caption className="carousel-elem carousel-caption-new align-content-center">
             <h1 class="font-weight-bold text-white mb-3 h2">
               Together Ahead for Sustainable Future
             </h1>
@@ -20,7 +20,7 @@ function CarouselItem() {
           class="image-banner-img img-fluid"
         />
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      {/* <Carousel.Item interval={500}>
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Web-Banner.jpg"
           alt="banner"
@@ -99,7 +99,7 @@ function CarouselItem() {
             </Button>
           </div>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }
