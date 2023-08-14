@@ -10,13 +10,105 @@ const CardsScrollable = () => {
   const isActive = (iHash) => hash === iHash;
   return (
     <>
-      {/* <div class="d-flex flex-row flex-nowrap overflow-auto">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-      </div> */}
+      <div class="d-flex flex-row flex-nowrap overflow-auto row-horizon">
+        {/* <div className="row row-horizon"> */}
+        <div className="col-xs-6">
+          <Nav.Link
+            activeClassName="active-link" // <-- define active classname
+            as={HashLink} // <-- render NavHashLink component
+            className="style-navlink"
+            smooth
+            to="/individual/interest-rate"
+            style={
+              isActive("/individual/interest-rate")
+                ? {
+                    fontWeight: "bold",
+                    backgroundColor: "rgb(213, 41, 51)",
+                  }
+                : {}
+            }
+          >
+            <Cards />
+          </Nav.Link>
+        </div>
+        <div className="col-xs-6">
+          <Nav.Link
+            activeClassName="active-link" // <-- define active classname
+            as={HashLink} // <-- render NavHashLink component
+            className="style-navlink"
+            smooth
+            to="/individual/currency"
+            style={
+              isActive("/individual/currency")
+                ? {
+                    fontWeight: "bold",
+                    backgroundColor: "rgb(213, 41, 51)",
+                  }
+                : {}
+            }
+          >
+            <Cards />
+          </Nav.Link>
+        </div>
+        <div className="col-xs-6">
+          <Nav.Link
+            activeClassName="active-link" // <-- define active classname
+            as={HashLink} // <-- render NavHashLink component
+            className="style-navlink"
+            smooth
+            to="/individual/calculator"
+            style={
+              isActive("/individual/calculator")
+                ? {
+                    fontWeight: "bold",
+                    backgroundColor: "rgb(213, 41, 51)",
+                  }
+                : {}
+            }
+          >
+            <Cards />
+          </Nav.Link>
+        </div>
+        <div className="col-xs-6">
+          <Nav.Link
+            activeClassName="active-link" // <-- define active classname
+            as={HashLink} // <-- render NavHashLink component
+            className="style-navlink"
+            smooth
+            to="/individual/grievance-handling"
+            style={
+              isActive("/individual/grievance-handling")
+                ? {
+                    fontWeight: "bold",
+                    backgroundColor: "rgb(213, 41, 51)",
+                  }
+                : {}
+            }
+          >
+            <Cards />
+          </Nav.Link>
+        </div>
+        <div className="col-xs-6">
+          <Nav.Link
+            activeClassName="active-link" // <-- define active classname
+            as={HashLink} // <-- render NavHashLink component
+            className="style-navlink"
+            smooth
+            to="/individual/calendar"
+            style={
+              isActive("/individual/calendar")
+                ? {
+                    fontWeight: "bold",
+                    backgroundColor: "rgb(213, 41, 51)",
+                  }
+                : {}
+            }
+          >
+            <Cards />
+          </Nav.Link>
+        </div>
+        {/* </div> */}
+      </div>
 
       {/* <div class="container-fluid">
         <div class="row">
@@ -34,7 +126,7 @@ const CardsScrollable = () => {
           </div>
         </div>
       </div> */}
-
+      {/* 
       <Nav className="justify-content-start flex-grow-1 pe-3">
         <Nav.Link
           activeClassName="active-link" // <-- define active classname
@@ -107,7 +199,7 @@ const CardsScrollable = () => {
         <Nav.Link href="https://siteadmin.nabilbank.com/assets/backend/uploads/Calendar/Nabil-Calendar-2080.pdf">
           Calendar
         </Nav.Link>
-      </Nav>
+      </Nav> */}
     </>
   );
 };
