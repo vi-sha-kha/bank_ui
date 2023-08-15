@@ -6,8 +6,8 @@ function CarouselItem() {
   return (
     <Carousel>
       <Carousel.Item interval={1000}>
-        <div className="align-middle slick-slide">
-          <Carousel.Caption className="carousel-elem carousel-caption-new align-content-center">
+        <div className="align-middle slick-slide m-auto">
+          <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
             <h1 class="font-weight-bold text-white mb-3 h2">
               Together Ahead for Sustainable Future
             </h1>
@@ -20,13 +20,13 @@ function CarouselItem() {
           class="image-banner-img img-fluid"
         />
       </Carousel.Item>
-      {/* <Carousel.Item interval={500}>
+      <Carousel.Item interval={500}>
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Web-Banner.jpg"
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption className="carousel-elem">
+        <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div className="d-grid gap-2">
             <h1 class="font-weight-bold text-white mb-3 h2">
               Application Open for Nabil SSE Fellowship Programme - Third Cohort
@@ -43,7 +43,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption className="carousel-elem">
+        <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div className="d-grid gap-2">
             <h1 class="font-weight-bold text-white mb-3 h2">
               Attractive Discounts Await You!
@@ -63,7 +63,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption className="carousel-elem">
+        <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div className="d-grid gap-2">
             <h1 class="font-weight-bold text-white mb-3 h2">
               Open Fixed Deposit Instantly
@@ -84,7 +84,7 @@ function CarouselItem() {
           alt="banner"
           class="image-banner-img img-fluid"
         />
-        <Carousel.Caption className="carousel-elem">
+        <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div>
             <h1 class="font-weight-bold text-white mb-3 h2">
               Looking to finance your next chapter?
@@ -99,7 +99,7 @@ function CarouselItem() {
             </Button>
           </div>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
     </Carousel>
   );
 }
