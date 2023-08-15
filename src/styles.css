@@ -282,4 +282,13 @@
                                     padding: 50px;
                                 }
 
-                
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100% !important;
+}
+
+.card-wrapper .card {
+    flex: 1;
+}

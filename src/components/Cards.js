@@ -6,7 +6,7 @@ const Cards = ({ img, title }) => {
       {/* <div className="row">
         <div className="col"> */}
       <div
-        class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded h-100 "
+        class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded h-100"
         style={{ maxHeight: "18rem !important" }}
       >
         <div class="row g-0">
