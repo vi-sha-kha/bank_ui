@@ -17,10 +17,15 @@ const Promo = () => {
             <h5 class=" text-d-gray mb-3">
               Answer a few questions and we will help you plan your finances.
             </h5>
-            <div class="d-flex flex-column flex-sm-row justify-content-center">
-              <Button variant="success">Schedule an Appointment</Button>
-
-              <Button variant="outline-success">View FAQs</Button>
+            <div class="d-flex flex-column flex-sm-row justify-content-center  ">
+              <div className="row g-2">
+                <div className="col">
+                  <Button variant="success">Schedule an Appointment</Button>
+                </div>
+                <div className="col">
+                  <Button variant="outline-success">View FAQs</Button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-5 order-0 order-md-1">

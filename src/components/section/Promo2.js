@@ -58,8 +58,14 @@ const Promo2 = () => {
               <div className="service_icon-arrow"></div>
             </Row>
             <div className="d-flex mx-5 flex-column flex-sm-row flex-wrap justify-content-center">
-              <Button variant="success">Send to Mobile Number</Button>
-              <Button variant="outline-success">More Info</Button>
+              <Row className="g-2">
+                <Col>
+                  <Button variant="success">Send to Mobile Number</Button>
+                </Col>
+                <Col>
+                  <Button variant="outline-success">More Info</Button>
+                </Col>
+              </Row>
             </div>
           </Col>
         </Row>
