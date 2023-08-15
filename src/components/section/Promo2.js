@@ -14,6 +14,11 @@ const Promo2 = () => {
                   src='"https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/nBank%20Banner.png"'
                   class="img-fluid"
                 />
+                <img
+                  alt=""
+                  src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Want &amp; Advice-06.png"
+                  class="img-fluid"
+                />
               </figure>
             </div>
           </Col>
@@ -60,10 +65,24 @@ const Promo2 = () => {
             <div className="d-flex mx-5 flex-column flex-sm-row flex-wrap justify-content-center">
               <Row className="g-2">
                 <Col>
-                  <Button variant="success">Send to Mobile Number</Button>
+                  <Button variant="success">
+                    Send to Mobile Number{" "}
+                    <i
+                      style={{ marginLeft: "10px;" }}
+                      class="fa fa-angle-double-right"
+                      aria-hidden="true"
+                    ></i>
+                  </Button>
                 </Col>
                 <Col>
-                  <Button variant="outline-success">More Info</Button>
+                  <Button variant="outline-success">
+                    More Info{" "}
+                    <i
+                      style={{ marginLeft: "10px;" }}
+                      class="fa fa-angle-double-right"
+                      aria-hidden="true"
+                    ></i>
+                  </Button>
                 </Col>
               </Row>
             </div>

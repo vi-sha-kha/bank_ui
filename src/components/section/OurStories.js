@@ -16,7 +16,14 @@ const OurStories = () => {
                 </span>
               </h2>
               <h5 class="font-weight-bold text-purple mb-5"></h5>
-              <Button variant="success">Read Our Stories</Button>
+              <Button variant="success">
+                Read Our Stories{" "}
+                <i
+                  style={{ marginLeft: "10px;" }}
+                  class="fa fa-angle-double-right"
+                  aria-hidden="true"
+                ></i>
+              </Button>
             </div>
           </Col>
           <Col>

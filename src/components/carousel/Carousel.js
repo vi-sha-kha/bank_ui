@@ -32,7 +32,12 @@ function CarouselItem() {
               Application Open for Nabil SSE Fellowship Programme - Third Cohort
             </h1>
             <Button variant="danger" size="sm">
-              Learn More
+              Learn More{" "}
+              <i
+                style={{ marginLeft: "10px;" }}
+                class="fa fa-angle-double-right"
+                aria-hidden="true"
+              ></i>
             </Button>
           </div>
         </Carousel.Caption>
@@ -52,7 +57,12 @@ function CarouselItem() {
               Connecting Nabil SME businesses to all Nabil Customers
             </h5>
             <Button variant="danger" size="sm">
-              Offers and Discount
+              Offers and Discount{" "}
+              <i
+                style={{ marginLeft: "10px;" }}
+                class="fa fa-angle-double-right"
+                aria-hidden="true"
+              ></i>
             </Button>
           </div>
         </Carousel.Caption>
@@ -72,7 +82,12 @@ function CarouselItem() {
               Now you can open Fixed Deposit from the comfort of your home.
             </h5>
             <Button variant="danger" size="sm">
-              Open Online Fixed Deposit
+              Open Online Fixed Deposit{" "}
+              <i
+                style={{ marginLeft: "10px;" }}
+                class="fa fa-angle-double-right"
+                aria-hidden="true"
+              ></i>
             </Button>
           </div>
         </Carousel.Caption>
@@ -95,7 +110,12 @@ function CarouselItem() {
               in minutes.
             </h5>
             <Button variant="danger" size="sm">
-              Open an Account Now
+              Open an Account Now{" "}
+              <i
+                style={{ marginLeft: "20px !important" }}
+                class="fa fa-angle-double-right"
+                aria-hidden="true"
+              ></i>
             </Button>
           </div>
         </Carousel.Caption>

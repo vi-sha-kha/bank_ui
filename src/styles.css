@@ -292,3 +292,7 @@
 .card-wrapper .card {
     flex: 1;
 }
+
+.grid-css{
+    height:20% !important;
+}

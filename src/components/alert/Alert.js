@@ -33,7 +33,7 @@ const Alert = () => {
 
   return (
     <>
-      <div class="alert alert-danger ">
+      <div class="alert alert-danger alert-margin">
         {/* <button
           type="button"
           class="btn-close"

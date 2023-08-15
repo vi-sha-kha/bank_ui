@@ -123,3 +123,13 @@ a {
 .mega-menu-item:hover .mega-dropdown-menu {
   display: block; /* Display the mega menu on parent item hover */
 }
+
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+}
+
+.alert-margin{
+    margin-top: 11rem;
+}
