@@ -33,12 +33,12 @@ const Alert = () => {
 
   return (
     <>
-      <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <button
+      <div class="alert alert-danger ">
+        {/* <button
           type="button"
           class="btn-close"
           data-bs-dismiss="alert"
-        ></button>
+        ></button> */}
         <strong>{newName}</strong>
 
         <Link link={linkData.link} popup={linkData.popup} />

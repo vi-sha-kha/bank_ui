@@ -627,7 +627,7 @@ const Navbar2 = () => {
                               </Dropdown.Item>
                             </Dropdown.Menu>
                           </Dropdown>
-                          <form>
+                          {/* <form>
                             <MDBContainer className="py-5 sidebar-search-wrapper">
                               <input
                                 type="text"
@@ -657,7 +657,7 @@ const Navbar2 = () => {
                                 ></line>
                               </svg>
                             </MDBContainer>
-                          </form>
+                          </form> */}
                         </Nav>
                       </Nav>
                     </div>

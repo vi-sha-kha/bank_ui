@@ -19,6 +19,7 @@ import CardsScrollable from "./components/CardsScrollable";
 import TabScrollable from "./components/TabScrollable";
 import CarouselMini from "./components/carousel/CarouselMini";
 import Alert from "./components/alert/Alert";
+import Alert2 from "./components/alert/Alert2";
 
 function App() {
   return (
@@ -29,9 +30,11 @@ function App() {
       {/* <Header/> */}
       {/* <Navbar2 /> */}
       <Alert />
-      <CarouselMini />
+
+      {/* <CarouselMini /> */}
       <CarouselItem />
       <CardsScrollable />
+
       <Promo />
       <OurStories />
       <Grid4 />
