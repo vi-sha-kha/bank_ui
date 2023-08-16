@@ -29,23 +29,27 @@ function App() {
       <Navbar2 />
       {/* <Header/> */}
       {/* <Navbar2 /> */}
-      <Alert />
 
-      {/* <CarouselMini /> */}
-      <CarouselItem />
-      <CardsScrollable />
+      <div className="disp-main">
+        <Alert />
 
-      <Promo />
-      <OurStories />
-      <Grid4 />
-      <Promo2 />
-      <Individual />
+        {/* <CarouselMini /> */}
 
-      <Business />
-      <About />
-      <Services />
-      <Nbank />
-      <Footer />
+        <CarouselItem />
+        <CardsScrollable />
+
+        <Promo />
+        <OurStories />
+        <Grid4 />
+        <Promo2 />
+        <Individual />
+
+        <Business />
+        <About />
+        <Services />
+        <Nbank />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { React, useCallback, useEffect, useState } from "react";
-import { Nav } from "react-bootstrap";
+import { Nav, Stack } from "react-bootstrap";
 import { useLocation } from "react-router";
 import Link from "./Link";
 
@@ -33,27 +33,16 @@ const Alert = () => {
 
   return (
     <>
-      <div class="alert alert-danger alert-margin">
-        {/* <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="alert"
-        ></button> */}
-        <strong>{newName}</strong>
-
-        <Link link={linkData.link} popup={linkData.popup} />
+      <div class="alert alert-danger alert-margin placeholder-wave">
+        <Stack direction="horizontal">
+          <h3 className="">{newName}</h3>
+          <Link
+            className="align-items-right"
+            link={linkData.link}
+            popup={linkData.popup}
+          />
+        </Stack>
       </div>
-
-      {/* <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Holy guacamole!</strong> You should check in on some of those
-        fields below.
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="alert"
-          aria-label="Close"
-        ></button>
-      </div> */}
     </>
   );
 };

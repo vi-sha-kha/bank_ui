@@ -40,7 +40,7 @@ const CardsScrollable = () => {
   ];
   return (
     <>
-      <div class="d-flex flex-row flex-nowrap overflow-auto row-horizon">
+      <div class="d-flex flex-row flex-nowrap overflow-auto row-horizon card-pos">
         {cardData.map((card, index) => (
           <div key={index} className="col-xs-6">
             <Nav.Link
