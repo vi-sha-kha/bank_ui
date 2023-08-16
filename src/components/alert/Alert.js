@@ -2,7 +2,7 @@ import { React, useCallback, useEffect, useState } from "react";
 import { Nav, Stack } from "react-bootstrap";
 import { useLocation } from "react-router";
 import Link from "./Link";
-
+import "./alert.css";
 const names = [
   "RFP Call for AML/CFT Expert or Consultant",
 
