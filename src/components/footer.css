@@ -1,0 +1,12 @@
+.footer-container{
+    font-size: 3.2vw !important;
+    min-width:min-content;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .footer-container {
+            font-size: 3.2vw !important;
+            max-width: 25em !important;
+            overflow-x: hidden !important;
+        }
+}
