@@ -5,7 +5,7 @@ import "./carouselStyles.css";
 function CarouselItem() {
   return (
     <Carousel>
-      {/* <Carousel.Item interval={1000}>
+      <Carousel.Item interval={1000}>
         <div className="align-middle slick-slide m-auto">
           <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
             <h1 class="font-weight-bold text-white mb-3 h2">
@@ -41,7 +41,7 @@ function CarouselItem() {
             </Button>
           </div>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
       <Carousel.Item>
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Individual/NabilSME Co-marketing Banner.png"
@@ -67,7 +67,7 @@ function CarouselItem() {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Individual/Online FD.png"
           alt="banner"
@@ -119,7 +119,7 @@ function CarouselItem() {
             </Button>
           </div>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
     </Carousel>
   );
 }
