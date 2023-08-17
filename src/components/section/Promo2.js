@@ -6,14 +6,14 @@ const Promo2 = () => {
     <>
       <Container>
         <Row className="align-items-center">
-          <Col>
+          <Col md={6} sm={6} xs={6}>
             <img
               src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Want &amp; Advice-06.png"
               class="img-fluid"
               alt=""
             />
           </Col>
-          <Col>
+          <Col md={6} sm={6} xs={6}>
             {/* <div class="pr-0 pr-sm-5"> */}
             <h2 className="font-weight-bold text-danger mb-4">
               Bank from{" "}
@@ -23,28 +23,28 @@ const Promo2 = () => {
               Change the way you bank, with nBank.
             </h5>
             <Row className="app-service-grid">
-              <Col className="service-block active">
+              <Col md={3} sm={3} xs={3} className="service-block active">
                 <img
                   alt=""
                   src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Vector.png"
                 />
                 Mobile
               </Col>
-              <Col className="service-block ">
+              <Col md={3} sm={3} xs={3} className="service-block ">
                 <img
                   alt=""
                   src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Vector-1.png"
                 />
                 Internet
               </Col>
-              <Col class="service-block ">
+              <Col md={3} sm={3} xs={3} class="service-block ">
                 <img
                   alt=""
                   src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banner Menu/Bank.png"
                 />
                 Branches
               </Col>
-              <Col class="service-block ">
+              <Col class="service-block " md={3} sm={3} xs={3}>
                 <img
                   alt=""
                   src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Group.png"
@@ -56,7 +56,7 @@ const Promo2 = () => {
             </Row>
             <div className="d-flex mx-5 flex-column flex-sm-row flex-wrap justify-content-center">
               <Row className="g-2">
-                <Col>
+                <Col md={6} sm={6} xs={6}>
                   <Button variant="success">
                     Send to Mobile Number{" "}
                     <i
@@ -66,7 +66,7 @@ const Promo2 = () => {
                     ></i>
                   </Button>
                 </Col>
-                <Col>
+                <Col md={6} sm={6} xs={6}>
                   <Button variant="outline-success">
                     More Info{" "}
                     <i

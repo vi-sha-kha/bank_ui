@@ -6,7 +6,7 @@ const OurStories = () => {
     <>
       <Container>
         <Row className="align-items-center">
-          <Col>
+          <Col md={6} sm={12} xs={12}>
             <div class="pr-0 pr-sm-5">
               <h4 class="font-weight-bold text-success">Our Stories</h4>
               <h2 class="text-danger">
@@ -26,7 +26,7 @@ const OurStories = () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col md={6} sm={12} xs={12}>
             <img
               src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Third-Section-remake-1.png"
               class="img-fluid w-100"
