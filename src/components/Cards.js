@@ -5,7 +5,7 @@ const Cards = ({ img, title }) => {
     <>
       {/* <div className="row">
         <div className="col"> */}
-      <div class="card cardcc mb-3 shadow-lg p-3 mb-5 bg-white rounded mt-3">
+      <div class="card cardcc mb-3 shadow-lg p-3 mb-5 bg-white rounded mt-3 ">
         <div className="category-wrapper-item">
           <div class="row g-0">
             <div class="col-md-4 col-sm-4 col-xs-4 ">

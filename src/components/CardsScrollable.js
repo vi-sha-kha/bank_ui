@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavHashLink } from "react-router-hash-link";
 import { useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import "../card.css";
 
 const CardsScrollable = () => {
   const { hash } = useLocation();
@@ -42,7 +43,7 @@ const CardsScrollable = () => {
     <>
       <div class="d-flex flex-row flex-nowrap overflow-auto row-horizon card-pos">
         {cardData.map((card, index) => (
-          <div key={index} className="col-xs-6">
+          <div key={index} className="col-md-2  col-xs-6">
             <Nav.Link
               activeClassName="active-link"
               as={NavHashLink}
@@ -58,12 +59,8 @@ const CardsScrollable = () => {
                   : {}
               }
             >
-              <div>
-                <Cards
-                  img={card.img}
-                  title={card.title}
-                  style={{ height: "100% !important" }}
-                />
+              <div className="">
+                <Cards img={card.img} title={card.title} />
               </div>
             </Nav.Link>
           </div>
