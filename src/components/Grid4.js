@@ -309,14 +309,14 @@ const Grid4 = () => {
   return (
     <>
       <div className="container">
-        <div className="h-70">
+        <div className="">
           <section
             className=" grid-css grid-section grid1 py-5 row  "
             // style={{ width: "100% !important" }}
           >
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
               {/* <div className="row row-cols-1 row-cols-md-2 g-4"> */}
-              <div className="grid-with-four-item rounded overflow-hidden col-sm-6 col-xs-6">
+              <div className=" rounded overflow-hidden col-sm-6 col-xs-6">
                 <img
                   src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/GenN-Account-600X600px .jpg"
                   className="img-fluid"

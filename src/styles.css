@@ -117,20 +117,7 @@
                     margin-bottom: 2px;
                 }
         
-                .about-footer li i {
-                    position: absolute;
-                    left: 0;
-                }
-        
-                .about-footer li {
-                    padding-left: 40px;
-                    position: relative;
-                    margin-bottom: 40px;
-                }
-        
-                .about-footer ul {
-                    margin-top: 40px;
-                }
+   
         
                 footer a {
                     color: #fff;
@@ -321,3 +308,26 @@
 .card-pos{
     align-items: start;
 }
+
+.disp-main{
+    max-width:100% !important;
+}
+
+
+/* @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .disp-main {
+            max-width: 40em !important;
+            
+        }
+} */
+
+/* @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .App .try-res2 .disp-main .try-res{
+        max-width: 25em !important;
+
+    }
+} */
+
+
+
+

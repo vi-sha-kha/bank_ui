@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./footer.css";
 const Footer = () => {
   return (
     <>
       <footer>
-        <div class="container">
+        <div class="footer-container">
           <div class="footer-top">
             <div class="row">
               <div class="col-md-6 col-lg-3 about-footer mb-10">
@@ -306,80 +306,6 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-
-              {/* <div class="col-md-6 col-lg-4 open-hours">
-                <div class="footer-title">
-                  <h4>Open hours</h4>
-                  <ul class="footer-social">
-                    <li>
-                      <a href="" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <i class="far fa-clock"></i>Monday Thursday
-                      </td>
-                      <td>9:00am - 5:00pm</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <i class="far fa-clock"></i>Friday
-                      </td>
-                      <td>9:00am - 4:00pm</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <i class="far fa-clock"></i>Sturday
-                      </td>
-                      <td>9:00am - 1:30pm</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <i class="far fa-clock"></i>Sunday
-                      </td>
-                      <td>9:30am - 12:00pm</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <hr />
-                <div class="footer-logo">
-                  <table>
-                    <tbody>
-                      <tr />
-                      <td>
-                        <img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg" />
-                      </td>
-                      <td>
-                        <img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg" />
-                      </td>
-                      <td>
-                        <img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg" />
-                      </td>
-                      <td>
-                        <img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg" />
-                      </td>
-                      <td>
-                        <img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg" />
-                      </td>
-                    </tbody>
-                  </table>
-                </div>
-              </div> */}
             </div>
           </div>
 

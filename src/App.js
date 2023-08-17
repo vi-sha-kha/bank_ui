@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./styles.css";
+import "./components/footer.css";
 import Business from "./components/Business";
 import Individual from "./components/Individual";
 import Nbank from "./components/Nbank";
@@ -26,29 +27,34 @@ function App() {
     <div className="App">
       {/* <Routing /> */}
 
-      <Navbar2 />
-      {/* <Header/> */}
-      {/* <Navbar2 /> */}
+      <div className="try-res2">
+        <Navbar2 />
 
-      <div className="disp-main">
-        <Alert />
+        <div className="disp-main">
+          {/* <Alert />
 
-        {/* <CarouselMini /> */}
+          <CarouselItem />
+          <CardsScrollable />
+          <Promo />
+          <OurStories />
+          <Grid4 />
+          <Promo2 />
+          <Individual />
+          <Business />
+          <About />
+          <Services />
+          <Nbank /> */}
 
-        <CarouselItem />
-        <CardsScrollable />
-
-        <Promo />
-        <OurStories />
-        <Grid4 />
-        <Promo2 />
-        <Individual />
-
-        <Business />
-        <About />
-        <Services />
-        <Nbank />
-        <Footer />
+          <div className="try-res">
+            <Alert />
+            <CarouselItem />
+            <Promo />
+            <OurStories />
+            <Grid4 />
+            <Promo2 />
+            <Footer />
+          </div>
+        </div>
       </div>
     </div>
   );
