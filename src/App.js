@@ -48,6 +48,7 @@ function App() {
           <div className="try-res">
             <Alert />
             <CarouselItem />
+            <CardsScrollable />
             <Promo />
             <OurStories />
             <Grid4 />
