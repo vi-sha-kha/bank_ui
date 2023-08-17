@@ -29,6 +29,9 @@ display: contents;
         width: 100% !important;
         display: contents;
     }
+         img {
+             width: 50%;
+         }
 }
 
 /* For Desktop View */
@@ -38,6 +41,9 @@ display: contents;
         width: 100% !important;
         display: contents;
     }
+         img {
+             width: 50%;
+         }
 }
 
 /* For Tablet View */
@@ -47,6 +53,9 @@ display: contents;
         width: 100% !important;
         display: contents;
     }
+         img {
+             width: 50%;
+         }
 }
 
 /* For Mobile Portrait View */
@@ -56,6 +65,9 @@ display: contents;
         width: 100% !important;
         display: contents;
     }
+         img {
+             width: 50%;
+         }
 }
 
 /* For Mobile Landscape View */
@@ -65,6 +77,9 @@ display: contents;
         width: 100% !important;
         display: contents;
     }
+         img {
+             width: 50%;
+         }
 }
 
 /* For Mobile Phones Portrait or Landscape View */
@@ -91,5 +106,15 @@ display: contents;
         display: contents;
         justify-content: start;
         overflow-x: hidden !important;
+    }
+         img {
+             width: 50%;
+         }
+}
+
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 50%;
     }
 }
