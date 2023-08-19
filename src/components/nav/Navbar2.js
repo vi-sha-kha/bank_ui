@@ -48,6 +48,7 @@ const Navbar2 = () => {
                   id={`offcanvasNavbar-expand-lg`}
                   aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
                   placement="end"
+                  className="overflow-auto"
                 >
                   <Offcanvas.Header closeButton>
                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
@@ -244,310 +245,6 @@ const Navbar2 = () => {
                             />
                           </Navbar.Brand>
                           <Nav className="justify-content-center flex-grow-1 pe-3">
-                            {/* <MDBNavbarItem className="position-relative">
-                              <MDBDropdown>
-                                <MDBDropdownToggle tag="a" className="nav-link">
-                                  Deposit
-                                </MDBDropdownToggle>
-                                <MDBDropdownMenu
-                                  className="mt-0 w-100 justify-content-center"
-                                  style={{
-                                    borderTopLeftRadius: "0",
-                                    borderTopRightRadius: "0",
-                                    width: "100%",
-                                  }}
-                                >
-                                  <MDBContainer>
-                                    <MDBRow className="my-4">
-                                      <MDBCol
-                                        md="6"
-                                        lg="3"
-                                        className="mb-3 mb-lg-0"
-                                      >
-                                        <MDBListGroup flush>
-                                          <MDBListGroupItem
-                                            className="text-uppercase font-weight-bold"
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Lorem ipsum
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Dolor sit
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Amet consectetur
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cras justo odio
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Adipisicing elit
-                                          </MDBListGroupItem>
-                                        </MDBListGroup>
-                                      </MDBCol>
-                                      <MDBCol md="6" lg="3">
-                                        <MDBListGroup flush>
-                                          <MDBListGroupItem
-                                            className="text-uppercase font-weight-bold"
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cras justo odio
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Saepe
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Vel alias
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Sunt doloribus
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cum dolores
-                                          </MDBListGroupItem>
-                                        </MDBListGroup>
-                                      </MDBCol>
-                                      <MDBCol md="6" lg="3">
-                                        <MDBListGroup flush>
-                                          <MDBListGroupItem
-                                            className="text-uppercase font-weight-bold"
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cras justo odio
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Saepe
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Vel alias
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Sunt doloribus
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cum dolores
-                                          </MDBListGroupItem>
-                                        </MDBListGroup>
-                                      </MDBCol>
-                                      <MDBCol
-                                        md="6"
-                                        lg="3"
-                                        class="dropdown-img-holder"
-                                      >
-                                        <h4>Nabil Premium Nari Bachat</h4>
-                                        <img
-                                          src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/nari-bachat-thumbnail.png"
-                                          class="dropdown-img img-fluid w-100 rounded"
-                                          alt="Nabil Premium Nari Bachat"
-                                        />
-                                      </MDBCol>
-                                    </MDBRow>
-                                  </MDBContainer>
-                                </MDBDropdownMenu>
-                              </MDBDropdown>
-                            </MDBNavbarItem>
-                            <MDBNavbarItem className="position-static">
-                              <MDBDropdown>
-                                <MDBDropdownToggle tag="a" className="nav-link">
-                                  Loans
-                                </MDBDropdownToggle>
-                                <MDBDropdownMenu
-                                  className="mt-0 w-100 justify-content-center"
-                                  style={{
-                                    borderTopLeftRadius: "0",
-                                    borderTopRightRadius: "0",
-                                  }}
-                                >
-                                  <MDBContainer>
-                                    <MDBRow className="my-4">
-                                      <MDBCol md="6" lg="3">
-                                        <MDBListGroup flush>
-                                          <MDBListGroupItem
-                                            className="text-uppercase font-weight-bold"
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cras justo odio
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Saepe
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Vel alias
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Sunt doloribus
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cum dolores
-                                          </MDBListGroupItem>
-                                        </MDBListGroup>
-                                      </MDBCol>
-                                      <MDBCol
-                                        md="6"
-                                        lg="3"
-                                        class="dropdown-img-holder"
-                                      >
-                                        <h4>Housing Loan</h4>
-                                        <img
-                                          src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/housing-loan-website.jpg"
-                                          class="dropdown-img img-fluid w-100 rounded"
-                                          alt="Housing Loan"
-                                        />
-                                      </MDBCol>
-                                    </MDBRow>
-                                  </MDBContainer>
-                                </MDBDropdownMenu>
-                              </MDBDropdown>
-                            </MDBNavbarItem>
-                            <MDBNavbarItem className="position-static">
-                              <MDBDropdown>
-                                <MDBDropdownToggle tag="a" className="nav-link">
-                                  Remittance
-                                </MDBDropdownToggle>
-                                <MDBDropdownMenu
-                                  className="mt-0 w-100 justify-content-center"
-                                  style={{
-                                    borderTopLeftRadius: "0",
-                                    borderTopRightRadius: "0",
-                                  }}
-                                >
-                                  <MDBContainer>
-                                    <MDBRow className="my-4">
-                                      <MDBCol md="6" lg="3">
-                                        <MDBListGroup flush>
-                                          <MDBListGroupItem
-                                            className="text-uppercase font-weight-bold"
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cras justo odio
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Saepe
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Vel alias
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Sunt doloribus
-                                          </MDBListGroupItem>
-                                          <MDBListGroupItem
-                                            tag="a"
-                                            href="#"
-                                            action
-                                          >
-                                            Cum dolores
-                                          </MDBListGroupItem>
-                                        </MDBListGroup>
-                                      </MDBCol>
-                                    </MDBRow>
-                                    <MDBRow className="my-4">
-                                      <MDBCol
-                                        md="6"
-                                        lg="3"
-                                        class="dropdown-img-holder"
-                                      >
-                                        <h4>
-                                          Western Union- Account Payment Network
-                                          (WU APN)
-                                        </h4>
-                                        <img
-                                          src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/western-union-account-payment.jpg"
-                                          class="dropdown-img img-fluid w-100 rounded"
-                                          alt="Western Union- Account Payment Network (WU APN)"
-                                        />
-                                      </MDBCol>
-                                    </MDBRow>
-                                  </MDBContainer>
-                                </MDBDropdownMenu>
-                              </MDBDropdown>
-                            </MDBNavbarItem> */}
-
                             <NavDropdown
                               title="Deposits"
                               data-bs-theme="light"
@@ -556,8 +253,62 @@ const Navbar2 = () => {
                             >
                               <NavDropdown.Item className="whitespace">
                                 <Row className="">
-                                  <Col md={6}>
+                                  <Col md={6} className="col-fill">
                                     <ListGroup variant="flush">
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Cras justo odio
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Dapibus ac facilisis in
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Morbi leo risus
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Cras justo odio
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Dapibus ac facilisis in
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Morbi leo risus
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Cras justo odio
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Dapibus ac facilisis in
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Morbi leo risus
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
                                       <ListGroup.Item>
                                         Porta ac consectetur ac
                                       </ListGroup.Item>
@@ -588,23 +339,6 @@ const Navbar2 = () => {
                                   </Col>
                                 </Row>
                               </NavDropdown.Item>
-
-                              {/* </Dropdown.Menu> */}
-                              {/* <Dropdown.Menu>
-                                <Dropdown.Item href="#/action-1" active>
-                                  Action
-                                </Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">
-                                  Another action
-                                </Dropdown.Item>
-                                <Dropdown.Item href="#/action-3">
-                                  Something else
-                                </Dropdown.Item>
-                                <Dropdown.Divider />
-                                <Dropdown.Item href="#/action-4">
-                                  Separated link
-                                </Dropdown.Item>
-                              </Dropdown.Menu> */}
                             </NavDropdown>
                             <NavDropdown
                               title="Loans"
