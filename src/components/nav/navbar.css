@@ -143,7 +143,14 @@ a {
     position:inherit !important;
 }
 
+.pos-drop{
+    position:initial !important;
+}
 .col-fill{
     column-count: 3 !important;
     column-fill: initial !important;
+}
+.st{
+    border-color: #007D68 !important;
+    background-color:green ;
 }

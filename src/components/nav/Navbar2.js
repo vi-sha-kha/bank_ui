@@ -1,34 +1,20 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import Button from "react-bootstrap/Button";
+
 import Container from "react-bootstrap/Container";
 //import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { NavHashLink } from "react-router-hash-link";
+// import { NavHashLink } from "react-router-hash-link";
 import { useLocation } from "react-router-dom";
-import { useCallback } from "react";
+//import { useCallback } from "react";
 import "./navbar.css";
 import Stack from "react-bootstrap/Stack";
 import Dropdown from "react-bootstrap/Dropdown";
 
-//import { Dropdown } from 'react-bootstrap'; /
-import {
-  MDBContainer,
-  MDBCol,
-  MDBNavbarItem,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBListGroup,
-  MDBListGroupItem,
-  MDBRow,
-} from "mdb-react-ui-kit";
-
-import { Col, ListGroup, Row, Tab, Tabs } from "react-bootstrap";
-import { DropdownItem } from "reactstrap";
+import { Col, ListGroup, Row } from "react-bootstrap";
 
 const Navbar2 = () => {
   const { hash } = useLocation();
@@ -426,15 +412,92 @@ const Navbar2 = () => {
                               </NavDropdown.Item>
                             </NavDropdown>
                           </Nav>
-                          <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
-                            <Dropdown className="d-inline mx-2">
+                          {/* <Nav className="justify-content-end d-inline flex-grow-1  mx-2"> */}
+                          <NavDropdown
+                            title="Loans"
+                            data-bs-theme="light"
+                            id={`offcanvasNavbarDropdown-expand-lg`}
+                            className="drop-pos d-inline mx-2"
+                          >
+                            <Dropdown.Item
+                              href="https://nbank.nabilbank.com/"
+                              target="_blank"
+                            >
+                              nBank Web
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://enabil.nabilbank.com/#/login"
+                              target="_blank"
+                            >
+                              e@Nabil{" "}
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://www.nabilbank.com.np"
+                              target="_blank"
+                            >
+                              Internet Banking
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://ibanking.nabilbank.com/#/login"
+                              target="_blank"
+                            >
+                              Internet Banking [NBBL]{" "}
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://acs.nabil.compassplus.uk/enrollment/index.jsp"
+                              target="_blank"
+                            >
+                              Nabil e-Secure
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://corporatepay.connectips.com/#/login"
+                              target="_blank"
+                            >
+                              CorporatePay
+                            </Dropdown.Item>
+                          </NavDropdown>
+                          <NavDropdown
+                            title="Apply Online"
+                            data-bs-theme="light"
+                            id={`offcanvasNavbarDropdown-expand-lg`}
+                            className="drop-pos d-inline mx-2"
+                          >
+                            <Dropdown.Item href="/individual/credit-card/eligibility">
+                              Credit Card Application
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://online.nabilbank.com/Setting/ProductSetup"
+                              target="_blank"
+                            >
+                              Online Account Opening
+                            </Dropdown.Item>
+                            <Dropdown.Item href="/individual/fixed-deposit">
+                              Online Fixed Deposit
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://onlinedemat.nabilinvest.com.np/"
+                              target="_blank"
+                            >
+                              Open Demat Account
+                            </Dropdown.Item>
+                            <Dropdown.Item
+                              href="https://www.nabilbank.com/services-payments/loan-eligibility"
+                              target="_blank"
+                            >
+                              Retail Loan Application
+                            </Dropdown.Item>
+                            <Dropdown.Item href="/individual/sme-loan-application">
+                              SME Loan Application
+                            </Dropdown.Item>
+                          </NavDropdown>
+                          {/* <Dropdown className="d-inline mx-2">
                               <Dropdown.Toggle
                                 variant="outline-success"
                                 id="dropdown-autoclose-true"
                               >
                                 Login
                               </Dropdown.Toggle>
-                              <Dropdown.Menu>
+                              <Dropdown.Menu className="pos-drop">
                                 <Dropdown.Item
                                   href="https://nbank.nabilbank.com/"
                                   target="_blank"
@@ -480,7 +543,7 @@ const Navbar2 = () => {
                               >
                                 Apply Online
                               </Dropdown.Toggle>
-                              <Dropdown.Menu>
+                              <Dropdown.Menu className="pos-drop">
                                 <Dropdown.Item href="/individual/credit-card/eligibility">
                                   Credit Card Application
                                 </Dropdown.Item>
@@ -509,39 +572,8 @@ const Navbar2 = () => {
                                   SME Loan Application
                                 </Dropdown.Item>
                               </Dropdown.Menu>
-                            </Dropdown>
-                            {/* <form>
-                              <MDBContainer className="py-5 sidebar-search-wrapper">
-                                <input
-                                  type="text"
-                                  className="search-hover"
-                                  placeholder="What are you looking for..."
-                                  value=""
-                                  data-listener-added_b7545ed4="true"
-                                />
-                                <svg
-                                  stroke="currentColor"
-                                  fill="none"
-                                  stroke-width="2"
-                                  viewBox="0 0 24 24"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  class="text-gray"
-                                  height="1em"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <circle cx="11" cy="11" r="8"></circle>
-                                  <line
-                                    x1="21"
-                                    y1="21"
-                                    x2="16.65"
-                                    y2="16.65"
-                                  ></line>
-                                </svg>
-                              </MDBContainer>
-                            </form> */}
-                          </Nav>
+                            </Dropdown> */}
+                          {/* </Nav> */}
                         </Nav>
                       </div>
                     </Stack>
