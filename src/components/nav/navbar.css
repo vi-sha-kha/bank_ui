@@ -133,3 +133,12 @@ a {
 .alert-margin{
     margin-top: 11rem;
 }
+
+.whitespace{
+    white-space: normal !important;
+    
+}
+
+.drop-pos{
+    position:inherit !important;
+}

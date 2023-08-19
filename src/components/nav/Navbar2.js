@@ -27,7 +27,8 @@ import {
   MDBRow,
 } from "mdb-react-ui-kit";
 
-import { Tab, Tabs } from "react-bootstrap";
+import { Col, ListGroup, Row, Tab, Tabs } from "react-bootstrap";
+import { DropdownItem } from "reactstrap";
 
 const Navbar2 = () => {
   const { hash } = useLocation();
@@ -243,7 +244,7 @@ const Navbar2 = () => {
                             />
                           </Navbar.Brand>
                           <Nav className="justify-content-center flex-grow-1 pe-3">
-                            <MDBNavbarItem className="position-static">
+                            {/* <MDBNavbarItem className="position-relative">
                               <MDBDropdown>
                                 <MDBDropdownToggle tag="a" className="nav-link">
                                   Deposit
@@ -545,7 +546,151 @@ const Navbar2 = () => {
                                   </MDBContainer>
                                 </MDBDropdownMenu>
                               </MDBDropdown>
-                            </MDBNavbarItem>
+                            </MDBNavbarItem> */}
+
+                            <NavDropdown
+                              title="Deposits"
+                              data-bs-theme="light"
+                              id={`offcanvasNavbarDropdown-expand-lg`}
+                              className="drop-pos"
+                            >
+                              <NavDropdown.Item className="whitespace">
+                                <Row className="">
+                                  <Col md={6}>
+                                    <ListGroup variant="flush">
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Cras justo odio
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Dapibus ac facilisis in
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Morbi leo risus
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                    </ListGroup>
+                                  </Col>
+                                  <Col md={6}>
+                                    <h4>Nabil Premium Nari Bachat</h4>
+                                    <img
+                                      src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/nari-bachat-thumbnail.png"
+                                      class="dropdown-img img-fluid w-100 rounded"
+                                      alt="Nabil Premium Nari Bachat"
+                                    />
+                                  </Col>
+                                </Row>
+                              </NavDropdown.Item>
+
+                              {/* </Dropdown.Menu> */}
+                              {/* <Dropdown.Menu>
+                                <Dropdown.Item href="#/action-1" active>
+                                  Action
+                                </Dropdown.Item>
+                                <Dropdown.Item href="#/action-2">
+                                  Another action
+                                </Dropdown.Item>
+                                <Dropdown.Item href="#/action-3">
+                                  Something else
+                                </Dropdown.Item>
+                                <Dropdown.Divider />
+                                <Dropdown.Item href="#/action-4">
+                                  Separated link
+                                </Dropdown.Item>
+                              </Dropdown.Menu> */}
+                            </NavDropdown>
+                            <NavDropdown
+                              title="Loans"
+                              data-bs-theme="light"
+                              id={`offcanvasNavbarDropdown-expand-lg`}
+                              className="drop-pos"
+                            >
+                              <NavDropdown.Item className="whitespace">
+                                <Row className="">
+                                  <Col md={6}>
+                                    <ListGroup variant="flush">
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Cras justo odio
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Dapibus ac facilisis in
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Morbi leo risus
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                    </ListGroup>
+                                  </Col>
+                                  <Col md={6}>
+                                    <h4>Housing Loan</h4>
+                                    <img
+                                      src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/housing-loan-website.jpg"
+                                      class="dropdown-img img-fluid w-100 rounded"
+                                      alt="Housing Loan"
+                                    />
+                                  </Col>
+                                </Row>
+                              </NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown
+                              title="Remittance"
+                              data-bs-theme="light"
+                              id={`offcanvasNavbarDropdown-expand-lg`}
+                              className="drop-pos"
+                            >
+                              <NavDropdown.Item className="whitespace">
+                                <Row className="">
+                                  <Col md={6}>
+                                    <ListGroup variant="flush">
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Cras justo odio
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Dapibus ac facilisis in
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Morbi leo risus
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        Porta ac consectetur ac
+                                      </ListGroup.Item>
+                                    </ListGroup>
+                                  </Col>
+                                  <Col md={6}>
+                                    <h4>
+                                      Western Union- Account Payment Network (WU
+                                      APN)
+                                    </h4>
+                                    <img
+                                      src="https://siteadmin.nabilbank.com/assets/backend/uploads/Product Images/Product Thumb Image/western-union-account-payment.jpg"
+                                      class="dropdown-img img-fluid w-100 rounded"
+                                      alt="Western Union- Account Payment Network (WU APN)"
+                                    />
+                                  </Col>
+                                </Row>
+                              </NavDropdown.Item>
+                            </NavDropdown>
                           </Nav>
                           <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
                             <Dropdown className="d-inline mx-2">
