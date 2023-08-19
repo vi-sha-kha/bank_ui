@@ -6,7 +6,7 @@ const Promo2 = () => {
     <>
       <Container>
         <Row className="align-items-center">
-          <Col md={6} sm={6} xs={6}>
+          <Col>
             <img
               src="https://siteadmin.nabilbank.com/assets/backend/uploads/home/Individual/Want &amp; Advice-06.png"
               class="img-fluid"

@@ -21,6 +21,7 @@ import TabScrollable from "./components/TabScrollable";
 import CarouselMini from "./components/carousel/CarouselMini";
 import Alert from "./components/alert/Alert";
 import Alert2 from "./components/alert/Alert2";
+import Navbar from "./components/nav/Navbar";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       {/* <Routing /> */}
 
       <div className="try-res2">
+        {/* <Navbar /> */}
         <Navbar2 />
 
         <div className="disp-main">
@@ -45,7 +47,7 @@ function App() {
           <Services />
           <Nbank /> */}
 
-          <div className="try-res">
+          <div className="try-res ">
             <Alert />
             <CarouselItem />
             <CardsScrollable />

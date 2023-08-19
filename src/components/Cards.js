@@ -9,7 +9,7 @@ const Cards = ({ img, title }) => {
         <div className="category-wrapper-item">
           <div class="row g-0">
             <div class="col-md-6 col-sm-12 col-xs-12 ">
-              <img src={img} class="img-fluid rounded-start" alt="...TO ADD" />
+              <img src={img} class="img-fluid " alt="...TO ADD" />
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 ">
               <div class="card-body">
