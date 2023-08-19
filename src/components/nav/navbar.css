@@ -142,3 +142,8 @@ a {
 .drop-pos{
     position:inherit !important;
 }
+
+.col-fill{
+    column-count: 3 !important;
+    column-fill: initial !important;
+}
