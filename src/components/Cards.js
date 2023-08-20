@@ -9,9 +9,13 @@ const Cards = ({ img, title }) => {
         <div className="category-wrapper-item container">
           <div class="row g-0">
             <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6 ">
-              <img src={img} class="img-fluid  mx-auto" alt="...TO ADD" />
+              <img
+                src={img}
+                class="img-fluid  mx-auto card-img"
+                alt="...TO ADD"
+              />
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6 d-flex align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6 d-flex align-items-center justify-content-center">
               {/* <div class="card-body"> */}
               <h5 class="card-title">{title}</h5>
               {/* </div> */}

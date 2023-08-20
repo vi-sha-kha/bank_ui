@@ -22,10 +22,14 @@ display: contents;
 
 }
 
+.card-img {
+    width: 30% !important;
+}
+
 
 @media only screen and (min-width: 200px) and (max-width: 305px) {
     .cardcc {
-       height: 150px !important;
+       /* height: 150px !important; */
         width: 100% !important;
         display: contents;
     }
@@ -34,13 +38,13 @@ display: contents;
 
 @media only screen and (min-width: 306px) and (max-width: 767px) {
     .cardcc {
-        height: 200px !important;
+        /* height: 200px !important; */
         width: 100% !important;
         display: contents ;
         text-align: center !important;
     }
-    .cardcc.img{
-        height:50 !important;
+    .card-img{
+        width:30% !important;
     }
 
 }
