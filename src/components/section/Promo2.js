@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button, Container } from "react-bootstrap";
+import CustomButton from "../button/CustomButton";
 
 const Promo2 = () => {
   return (
@@ -67,14 +68,11 @@ const Promo2 = () => {
                   </Button>
                 </Col>
                 <Col md={12} sm={12} xs={12}>
-                  <Button variant="outline-success">
-                    More Info{" "}
-                    <i
-                      style={{ marginLeft: "10px;" }}
-                      class="fa fa-angle-double-right"
-                      aria-hidden="true"
-                    ></i>
-                  </Button>
+                  <CustomButton
+                    variant="outline-success"
+                    label="More Info"
+                    onClickRedirect="/individual/abc"
+                  />
                 </Col>
               </Row>
             </div>

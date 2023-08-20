@@ -2,6 +2,7 @@ import { Button, Col, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import { Media } from "reactstrap";
 import "./carouselStyles.css";
+import CustomButton from "../button/CustomButton";
 function CarouselItem() {
   return (
     <Carousel className="m-top">
@@ -31,14 +32,14 @@ function CarouselItem() {
             <h1 class="font-weight-bold text-white mb-3 h2">
               Application Open for Nabil SSE Fellowship Programme - Third Cohort
             </h1>
-            <Button variant="danger" size="sm" className="btn-carousel">
-              Learn More{" "}
-              <i
-                style={{ marginLeft: "10px;" }}
-                class="fa fa-angle-double-right"
-                aria-hidden="true"
-              ></i>
-            </Button>
+
+            <CustomButton
+              variant="danger"
+              label="Learn More"
+              size="xs"
+              className="btn-carousel"
+              onClickRedirect="/individual/abc"
+            />
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -56,14 +57,13 @@ function CarouselItem() {
             <h5 class="text-white font-weight-light mb-3">
               Connecting Nabil SME businesses to all Nabil Customers
             </h5>
-            <Button variant="danger" size="sm">
-              Offers and Discount{" "}
-              <i
-                style={{ marginLeft: "10px;" }}
-                class="fa fa-angle-double-right"
-                aria-hidden="true"
-              ></i>
-            </Button>
+            <CustomButton
+              variant="danger"
+              label="Offers and Discount"
+              size="sm"
+              className="btn-carousel"
+              onClickRedirect="/individual/abc"
+            />
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -81,14 +81,13 @@ function CarouselItem() {
             <h5 class="text-white font-weight-light mb-3">
               Now you can open Fixed Deposit from the comfort of your home.
             </h5>
-            <Button variant="danger" size="sm">
-              Open Online Fixed Deposit{" "}
-              <i
-                style={{ marginLeft: "10px;" }}
-                class="fa fa-angle-double-right"
-                aria-hidden="true"
-              ></i>
-            </Button>
+            <CustomButton
+              variant="danger"
+              label="Open Online Fixed Deposit"
+              size="sm"
+              className="btn-carousel"
+              onClickRedirect="/individual/abc"
+            />
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -109,14 +108,13 @@ function CarouselItem() {
               Join the fastest growing bank in Nepal. Open an account digitally
               in minutes.
             </h5>
-            <Button variant="danger" size="sm">
-              Open an Account Now{" "}
-              <i
-                style={{ marginLeft: "20px !important" }}
-                class="fa fa-angle-double-right"
-                aria-hidden="true"
-              ></i>
-            </Button>
+            <CustomButton
+              variant="danger"
+              label="Open An Account Now"
+              size="sm"
+              className="btn-carousel"
+              onClickRedirect="/individual/abc"
+            />
           </div>
         </Carousel.Caption>
       </Carousel.Item>

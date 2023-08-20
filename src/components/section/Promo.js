@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import CustomButton from "../button/CustomButton";
 
 const Promo = () => {
   return (
@@ -20,24 +21,18 @@ const Promo = () => {
               <div class="d-flex flex-column flex-sm-row justify-content-center  ">
                 <div className="row g-2">
                   <div className="col">
-                    <Button variant="success">
-                      Schedule an Appointment{" "}
-                      <i
-                        style={{ marginLeft: "10px;" }}
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                    </Button>
+                    <CustomButton
+                      variant="success"
+                      label="Schedule An Appointment"
+                      onClickRedirect="/individual/abc"
+                    />
                   </div>
                   <div className="col">
-                    <Button variant="outline-success">
-                      View FAQs{" "}
-                      <i
-                        style={{ marginLeft: "10px;" }}
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                    </Button>
+                    <CustomButton
+                      variant="outline-success"
+                      label="View FAQ's"
+                      onClickRedirect="/individual/abc"
+                    />
                   </div>
                 </div>
               </div>
