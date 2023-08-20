@@ -22,7 +22,7 @@ const Promo2 = () => {
             <h5 className="font-weight-500 text-d-gray mb-4">
               Change the way you bank, with nBank.
             </h5>
-            <Row className="app-service-grid">
+            <Row className="app-service-grid ">
               <Col md={3} sm={3} xs={3} className="service-block active">
                 <img
                   alt=""

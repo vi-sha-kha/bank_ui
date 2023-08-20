@@ -5,16 +5,16 @@ const Cards = ({ img, title }) => {
     <>
       {/* <div className="row">
         <div className="col"> */}
-      <div class="card cardcc mb-3 shadow-lg p-3 mb-5 bg-white rounded mt-3 ">
-        <div className="category-wrapper-item">
+      <div class="card cardcc mb-3 shadow-lg p-3 mb-5 bg-white rounded mt-3 container">
+        <div className="category-wrapper-item container">
           <div class="row g-0">
-            <div class="col-md-6 col-sm-12 col-xs-12 ">
-              <img src={img} class="img-fluid " alt="...TO ADD" />
+            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6 ">
+              <img src={img} class="img-fluid  mx-auto" alt="...TO ADD" />
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 ">
-              <div class="card-body">
-                <h5 class="card-title">{title}</h5>
-              </div>
+            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6 d-flex align-items-center">
+              {/* <div class="card-body"> */}
+              <h5 class="card-title">{title}</h5>
+              {/* </div> */}
             </div>
           </div>
         </div>
