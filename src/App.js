@@ -29,24 +29,9 @@ function App() {
       {/* <Routing /> */}
 
       <div className="try-res2">
-        {/* <Navbar /> */}
         <Navbar2 />
 
         <div className="disp-main">
-          {/* <Alert />
-
-          <CarouselItem />
-          <CardsScrollable />
-          <Promo />
-          <OurStories />
-          <Grid4 />
-          <Promo2 />
-          <Individual />
-          <Business />
-          <About />
-          <Services />
-          <Nbank /> */}
-
           <div className="try-res ">
             <Alert />
             <CarouselItem />
@@ -64,55 +49,3 @@ function App() {
 }
 
 export default App;
-
-// import "./styles.css";
-// import { NavHashLink } from "react-router-hash-link";
-// import { useLocation } from "react-router-dom";
-// import { useCallback } from "react";
-
-// export default function App() {
-//   const { hash } = useLocation();
-//   const isActive = (iHash) => hash === iHash;
-
-//   return (
-//     <div className="App">
-//       <NavHashLink
-//         className="sticky"
-//         to="#tag1"
-//         style={
-//           isActive("#tag1")
-//             ? {
-//                 color: "red",
-//               }
-//             : {}
-//         }
-//         activeStyle={{
-//           fontWeight: "bold",
-//           color: "red",
-//         }}
-//       >
-//         Scroll to Tag1
-//       </NavHashLink>
-//       <NavHashLink
-//         className="sticky"
-//         to="#tag2"
-//         style={
-//           isActive("#tag2")
-//             ? {
-//                 color: "red",
-//               }
-//             : {}
-//         }
-//       >
-//         Scroll to Tag2
-//       </NavHashLink>
-
-//       <p id="tag1" className="bottom100">
-//         Tag1
-//       </p>
-//       <p id="tag2" className="bottom200">
-//         Tag2
-//       </p>
-//     </div>
-//   );
-// }

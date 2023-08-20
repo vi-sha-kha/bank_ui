@@ -2,6 +2,10 @@
     /* font-size: 3.2vw !important; */
     /* min-width:min-content; */
 }
+.marg{
+    margin-top: 25px !important;
+}
+
 
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     .footer-container {
@@ -9,4 +13,9 @@
             /* max-width: 25em !important; */
             /* overflow-x: hidden !important; */
         }
+                .bot-f {
+                    font-size: xx-small !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                }
 }

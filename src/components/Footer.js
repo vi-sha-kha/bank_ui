@@ -15,7 +15,7 @@ const Footer = () => {
                   width="220px"
                 />
                 <div class="footer__pageLinks">
-                  <div>
+                  <div className="marg">
                     <h5>Customer Support</h5>
                     <ul class="list-unstyled">
                       <li>
@@ -50,9 +50,9 @@ const Footer = () => {
                     />
                   </li>
                   <li>
-                    <div>
+                    <div className="marg">
                       <h5>Follow us</h5>
-                      <ul class="list-unstyled d-flex social-link-lists">
+                      <ul class="list-unstyled d-flex social-link-lists justify-content-evenly">
                         <li>
                           <a
                             href="https://www.facebook.com/nabilbanklimited"
@@ -312,11 +312,11 @@ const Footer = () => {
           <hr />
 
           <div class="footer-bottom">
-            <div class="row">
-              <div class="col-sm-4">
+            <div class="row g-5 justify-content-center align-items-center">
+              <div class=" col-md-12 col-sm-12 col-xs-12">
                 <a href="">Privacy policy</a>
               </div>
-              <div class="col-sm-8">
+              <div class="col-md-12 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center bot-f">
                 <p>Lorem ipsum dolor sit amet @ 2019 All rights reserved</p>
               </div>
             </div>
