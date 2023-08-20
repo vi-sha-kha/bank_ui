@@ -12,7 +12,7 @@
     transform:translateY(-30%)
 }
 
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 200px) and (max-width: 617px) {
    .new-height{
     height:200px !important;
    }
