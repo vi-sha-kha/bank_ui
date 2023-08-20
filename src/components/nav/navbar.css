@@ -160,14 +160,15 @@ a {
        
         width: 100% !important;
         display: contents;
-        text-align: center !important;
+        padding-left: inherit !important;
+        /* text-align: center !important; */
     }
     .megam{
-        text-align: center !important;
         width:100% !important;
         display: contents;
-        position:relative !important;
+        padding-left: inherit !important;
     }
+   
 
    
 
