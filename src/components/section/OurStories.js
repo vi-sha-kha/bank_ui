@@ -4,7 +4,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 const OurStories = () => {
   return (
     <>
-      <Container>
+      <Container className="m-top">
         <Row className="align-items-center">
           <Col>
             <div class="pr-0 pr-sm-5">

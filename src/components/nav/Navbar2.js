@@ -412,8 +412,8 @@ const Navbar2 = () => {
                             </NavDropdown.Item>
                           </NavDropdown>
                         </Nav>
-                        <Nav className="justify-content-end d-inline flex-grow-1  mx-2">
-                          {/* <NavDropdown
+                        {/* <Nav className="justify-content-end d-inline flex-grow-1  mx-2"> */}
+                        {/* <NavDropdown
                             title="Loans"
                             data-bs-theme="light"
                             id={`offcanvasNavbarDropdown-expand-lg`}
@@ -490,90 +490,96 @@ const Navbar2 = () => {
                               SME Loan Application
                             </Dropdown.Item>
                           </NavDropdown> */}
-                          <Dropdown className="d-inline mx-2">
-                            <Dropdown.Toggle
-                              variant="outline-success"
-                              id="dropdown-autoclose-true"
-                            >
-                              Login
-                            </Dropdown.Toggle>
-                            <Dropdown.Menu className="pos-drop">
-                              <Dropdown.Item
-                                href="https://nbank.nabilbank.com/"
-                                target="_blank"
+                        <Row className="row-height">
+                          <Col>
+                            <Dropdown className="d-inline mx-2">
+                              <Dropdown.Toggle
+                                variant="outline-success"
+                                id="dropdown-autoclose-true"
                               >
-                                nBank Web
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://enabil.nabilbank.com/#/login"
-                                target="_blank"
+                                Login
+                              </Dropdown.Toggle>
+                              <Dropdown.Menu className="pos-drop">
+                                <Dropdown.Item
+                                  href="https://nbank.nabilbank.com/"
+                                  target="_blank"
+                                >
+                                  nBank Web
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://enabil.nabilbank.com/#/login"
+                                  target="_blank"
+                                >
+                                  e@Nabil{" "}
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://www.nabilbank.com.np"
+                                  target="_blank"
+                                >
+                                  Internet Banking
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://ibanking.nabilbank.com/#/login"
+                                  target="_blank"
+                                >
+                                  Internet Banking [NBBL]{" "}
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://acs.nabil.compassplus.uk/enrollment/index.jsp"
+                                  target="_blank"
+                                >
+                                  Nabil e-Secure
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://corporatepay.connectips.com/#/login"
+                                  target="_blank"
+                                >
+                                  CorporatePay
+                                </Dropdown.Item>
+                              </Dropdown.Menu>
+                            </Dropdown>
+                          </Col>
+                          <Col>
+                            <Dropdown className="d-inline mx-2">
+                              <Dropdown.Toggle
+                                id="dropdown-autoclose-true"
+                                variant="success"
                               >
-                                e@Nabil{" "}
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://www.nabilbank.com.np"
-                                target="_blank"
-                              >
-                                Internet Banking
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://ibanking.nabilbank.com/#/login"
-                                target="_blank"
-                              >
-                                Internet Banking [NBBL]{" "}
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://acs.nabil.compassplus.uk/enrollment/index.jsp"
-                                target="_blank"
-                              >
-                                Nabil e-Secure
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://corporatepay.connectips.com/#/login"
-                                target="_blank"
-                              >
-                                CorporatePay
-                              </Dropdown.Item>
-                            </Dropdown.Menu>
-                          </Dropdown>
-                          <Dropdown className="d-inline mx-2">
-                            <Dropdown.Toggle
-                              id="dropdown-autoclose-true"
-                              variant="success"
-                            >
-                              Apply Online
-                            </Dropdown.Toggle>
-                            <Dropdown.Menu className="pos-drop">
-                              <Dropdown.Item href="/individual/credit-card/eligibility">
-                                Credit Card Application
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://online.nabilbank.com/Setting/ProductSetup"
-                                target="_blank"
-                              >
-                                Online Account Opening
-                              </Dropdown.Item>
-                              <Dropdown.Item href="/individual/fixed-deposit">
-                                Online Fixed Deposit
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://onlinedemat.nabilinvest.com.np/"
-                                target="_blank"
-                              >
-                                Open Demat Account
-                              </Dropdown.Item>
-                              <Dropdown.Item
-                                href="https://www.nabilbank.com/services-payments/loan-eligibility"
-                                target="_blank"
-                              >
-                                Retail Loan Application
-                              </Dropdown.Item>
-                              <Dropdown.Item href="/individual/sme-loan-application">
-                                SME Loan Application
-                              </Dropdown.Item>
-                            </Dropdown.Menu>
-                          </Dropdown>
-                        </Nav>
+                                Apply Online
+                              </Dropdown.Toggle>
+                              <Dropdown.Menu className="pos-drop">
+                                <Dropdown.Item href="/individual/credit-card/eligibility">
+                                  Credit Card Application
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://online.nabilbank.com/Setting/ProductSetup"
+                                  target="_blank"
+                                >
+                                  Online Account Opening
+                                </Dropdown.Item>
+                                <Dropdown.Item href="/individual/fixed-deposit">
+                                  Online Fixed Deposit
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://onlinedemat.nabilinvest.com.np/"
+                                  target="_blank"
+                                >
+                                  Open Demat Account
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                  href="https://www.nabilbank.com/services-payments/loan-eligibility"
+                                  target="_blank"
+                                >
+                                  Retail Loan Application
+                                </Dropdown.Item>
+                                <Dropdown.Item href="/individual/sme-loan-application">
+                                  SME Loan Application
+                                </Dropdown.Item>
+                              </Dropdown.Menu>
+                            </Dropdown>
+                          </Col>
+                        </Row>
+                        {/* </Nav> */}
                       </Nav>
                     </Row>
                   </Stack>

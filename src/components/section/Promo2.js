@@ -4,7 +4,7 @@ import { Row, Col, Button, Container } from "react-bootstrap";
 const Promo2 = () => {
   return (
     <>
-      <Container>
+      <Container className="m-top">
         <Row className="align-items-center">
           <Col>
             <img
@@ -54,9 +54,9 @@ const Promo2 = () => {
               {/* Other service-block components */}
               <div className="service_icon-arrow"></div>
             </Row>
-            <div className="d-flex mx-5 flex-column flex-sm-row flex-wrap justify-content-center">
+            <div className="d-flex mx-5 flex-column flex-sm-row flex-wrap justify-content-center m-top">
               <Row className="g-2">
-                <Col md={6} sm={6} xs={6}>
+                <Col md={12} sm={12} xs={12}>
                   <Button variant="success">
                     Send to Mobile Number{" "}
                     <i
@@ -66,7 +66,7 @@ const Promo2 = () => {
                     ></i>
                   </Button>
                 </Col>
-                <Col md={6} sm={6} xs={6}>
+                <Col md={12} sm={12} xs={12}>
                   <Button variant="outline-success">
                     More Info{" "}
                     <i

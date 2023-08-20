@@ -41,7 +41,7 @@ const CardsScrollable = () => {
   ];
   return (
     <>
-      <div class="card-pos container">
+      <div class="card-pos container m-top">
         {cardData.map((card, index) => (
           <div key={index} className="col-md-2  col-xs-6">
             <Nav.Link

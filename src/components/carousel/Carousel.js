@@ -4,7 +4,7 @@ import { Media } from "reactstrap";
 import "./carouselStyles.css";
 function CarouselItem() {
   return (
-    <Carousel>
+    <Carousel className="m-top">
       <Carousel.Item interval={1000}>
         <div className="align-middle slick-slide m-auto">
           <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
