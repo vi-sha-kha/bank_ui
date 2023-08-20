@@ -17,14 +17,14 @@ function CarouselItem() {
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/website-banner-1920x6801.png"
           alt="banner"
-          class="image-banner-img img-fluid"
+          class="image-banner-img img-fluid new-height"
         />
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Web-Banner.jpg"
           alt="banner"
-          class="image-banner-img img-fluid"
+          class="image-banner-img img-fluid new-height"
         />
         <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div className="d-grid gap-2">
@@ -46,7 +46,7 @@ function CarouselItem() {
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Individual/NabilSME Co-marketing Banner.png"
           alt="banner"
-          class="image-banner-img img-fluid"
+          class="image-banner-img img-fluid new-height"
         />
         <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div className="d-grid gap-2">
@@ -71,7 +71,7 @@ function CarouselItem() {
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Individual/Online FD.png"
           alt="banner"
-          class="image-banner-img img-fluid"
+          class="image-banner-img img-fluid new-height"
         />
         <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div className="d-grid gap-2">
@@ -97,7 +97,7 @@ function CarouselItem() {
         <img
           src="https://siteadmin.nabilbank.com/assets/backend/uploads/Banners/Individual/individual-main-banner.jpg"
           alt="banner"
-          class="image-banner-img img-fluid"
+          class="image-banner-img img-fluid new-height"
         />
         <Carousel.Caption className="carousel-elem carousel-caption-new d-flex flex-column justify-content-center align-items-center">
           <div>
