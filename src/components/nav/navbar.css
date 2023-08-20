@@ -154,3 +154,21 @@ a {
     border-color: #007D68 !important;
     background-color:green ;
 }
+
+@media only screen and (min-width: 75px) and (max-width: 767px) {
+    .offcan {
+       
+        width: 100% !important;
+        display: contents;
+        text-align: center !important;
+    }
+    .megam{
+        text-align: center !important;
+        width:100% !important;
+        display: contents;
+        position:relative !important;
+    }
+
+   
+
+}

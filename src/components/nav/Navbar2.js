@@ -32,9 +32,9 @@ const Navbar2 = () => {
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-lg`}
-                  aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
+                  aria-labelledby={`offcanvasNavbarLabel-expand-lg  `}
                   placement="end"
-                  className="overflow-auto"
+                  className="overflow-auto offcan"
                 >
                   <Offcanvas.Header closeButton>
                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
@@ -50,7 +50,7 @@ const Navbar2 = () => {
                     <Stack>
                       <div className="navigation-top">
                         {/* <Stack direction="horizontal" gap={3}> */}
-                        <Nav className="justify-content-start flex-grow-1 pe-3">
+                        <Nav className="justify-content-center flex-grow-1 pe-3">
                           <Nav.Link
                             activeClassName="active-link" // <-- define active classname
                             as={HashLink} // <-- render NavHashLink component
@@ -235,7 +235,7 @@ const Navbar2 = () => {
                               title="Deposits"
                               data-bs-theme="light"
                               id={`offcanvasNavbarDropdown-expand-lg`}
-                              className="drop-pos"
+                              className="drop-pos megam"
                             >
                               <NavDropdown.Item className="whitespace">
                                 <Row className="">
