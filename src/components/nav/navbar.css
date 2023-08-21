@@ -155,6 +155,11 @@ a {
     background-color:green ;
 }
 
+.justi{
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 @media only screen and (min-width: 75px) and (max-width: 767px) {
     .offcan {
        
@@ -167,6 +172,7 @@ a {
         width:100% !important;
         display: contents;
         padding-left: inherit !important;
+        
     }
    
 

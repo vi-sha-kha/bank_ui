@@ -308,6 +308,30 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          {/* <div className="footer-middle">
+            <div class="row g-5 justify-content-center align-items-center">
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                <div class="footer__pageLinks d-flex mb-0">
+                  <div class="footer__pageLink mr-3">
+                    <a href="/individual/sitemap" title="Site Map">
+                      <h5 class="m-0"> Site Map</h5>
+                    </a>
+                  </div>
+                  <div class="footer__pageLink">
+                    <a
+                      href="/individual/info/privacy-statement"
+                      title="Privacy Statement"
+                    >
+                      <h5 class="m-0"> Privacy Statement</h5>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center bot-f">
+                <p>Lorem ipsum dolor sit amet @ 2019 All rights reserved</p>
+              </div>
+            </div>
+          </div> */}
 
           <hr />
 

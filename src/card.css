@@ -1,3 +1,23 @@
+ .card {
+     transition: all 0.3s;
+     height: 100% !important;
+ }
+
+ .card:hover {
+     transform: scale(1.15);
+ }
+
+ .card-wrapper {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100% !important;
+ }
+
+ .card-wrapper .card {
+     flex: 1;
+ }
+
 .cardcc{
     width:100% !important;
     text-align:center;
@@ -7,7 +27,9 @@
     display: contents;
     
 }
-
+ .card-pos {
+     align-items: start;
+ }
 
 .category-wrapper-item{
 padding:1rem;

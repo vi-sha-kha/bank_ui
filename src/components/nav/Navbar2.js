@@ -23,6 +23,14 @@ const Navbar2 = () => {
     <>
       <Container className="navbar-fixed-top">
         <Navbar expand="lg" className="bg-body-tertiary mb-3 navbar-fixed-top">
+          <Navbar.Brand href="#home" className="m-top">
+            <img
+              src="https://siteadmin.nabilbank.com/assets/backend/uploads/logo.png"
+              alt="logo"
+              class="img-fluid text-center"
+              width="150"
+            />
+          </Navbar.Brand>
           <Nav variant="underline">
             <Container fluid className="container">
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
@@ -33,7 +41,7 @@ const Navbar2 = () => {
                 className="overflow-auto offcan"
               >
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
+                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
                     <img
                       src="https://siteadmin.nabilbank.com/assets/backend/uploads/logo.png"
                       alt="logo"
@@ -221,15 +229,6 @@ const Navbar2 = () => {
                     </Row>
                     <Row className="navigation-bottom offcan">
                       <Nav className="justify-content-center flex-grow-1 pe-3 megam">
-                        <Navbar.Brand href="#">
-                          {" "}
-                          <img
-                            src="https://siteadmin.nabilbank.com/assets/backend/uploads/logo.png"
-                            alt="logo"
-                            class="img-fluid"
-                            width="150"
-                          />
-                        </Navbar.Brand>
                         <Nav className="justify-content-center flex-grow-1 pe-3">
                           <NavDropdown
                             title="Deposits"

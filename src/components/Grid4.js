@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import CustomButton from "./button/CustomButton";
 
 const Grid4 = () => {
   return (
@@ -203,15 +204,14 @@ const Grid4 = () => {
                   <h4 className="text-white mb-4">
                     Take a step towards building your dreams with us.
                   </h4>
-                  <Button
-                    variant="light"
-                    className="d-flex justify-content-evenly"
+
+                  <CustomButton
                     size="md"
-                  >
-                    Explore Products Designed for You
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    {/* <span className="fas fa-thumbs-up"></span> */}
-                  </Button>
+                    className="d-flex justify-content-evenly"
+                    variant="light"
+                    label="Explore Products Designed for You"
+                    onClickRedirect="/individual/abc"
+                  />
                 </div>
               </div>
             </div>
