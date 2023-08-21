@@ -489,6 +489,7 @@ const Navbar2 = () => {
                               SME Loan Application
                             </Dropdown.Item>
                           </NavDropdown> */}
+
                         <Row className="row-height">
                           <Col>
                             <Dropdown className="d-inline mx-2">
@@ -578,6 +579,7 @@ const Navbar2 = () => {
                             </Dropdown>
                           </Col>
                         </Row>
+
                         {/* </Nav> */}
                       </Nav>
                     </Row>
