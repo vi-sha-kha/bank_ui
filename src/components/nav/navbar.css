@@ -166,7 +166,7 @@ a {
 
 .nav-wid{
    width:100% !important;
- display:table !important;
+ /* display:table !important; */
   overflow: visible !important;
 }
 
