@@ -165,8 +165,13 @@ a {
 }
 
 .nav-wid{
-
+   width:100% !important;
+ display:table !important;
   overflow: visible !important;
+}
+
+.wid-nav{
+    width: 100% !important;
 }
 
 .offcan{
