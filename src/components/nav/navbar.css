@@ -143,9 +143,9 @@ a {
     position:inherit !important;
 }
 
-.pos-drop{
+/* .pos-drop{
     position:initial !important;
-}
+} */
 .col-fill{
     column-count: 3 !important;
     column-fill: initial !important;
@@ -160,12 +160,27 @@ a {
     align-items: center !important;
 }
 
+.ttt{
+    position: absolute !important;
+}
+
+.nav-wid{
+
+  overflow: visible !important;
+}
+
+.offcan{
+    overflow: visible !important;
+;
+}
+
 @media only screen and (min-width: 75px) and (max-width: 767px) {
     .offcan {
        
         width: 100% !important;
-        display: contents;
+        
         padding-left: inherit !important;
+        overflow-wrap: auto !important;
         /* text-align: center !important; */
     }
     .megam{
