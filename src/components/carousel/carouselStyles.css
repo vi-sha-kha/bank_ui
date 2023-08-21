@@ -4,6 +4,7 @@
         transform: translateY(-50%);
         left:0.5% !important;
         height:max-content;
+        transition: all .3s ease-out;
 
 }
 
